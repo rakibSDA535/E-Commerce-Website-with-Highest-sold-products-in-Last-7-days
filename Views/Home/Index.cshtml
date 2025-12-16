@@ -1,0 +1,461 @@
+﻿@model ProductDisplayModel
+@{
+    ViewData["Title"] = "Product Display";
+}
+<div class="my-4 product-filter-section full-width-row mt-2" style=" z-index: 1030;">
+    <form asp-action="Index" class="row g-3 align-items-center justify-content-start full-width-row">
+        <div class="col-auto">
+            <label class="visually-hidden" for="genreId">Category</label>
+            <select class="form-select" id="genreId" name="genreId">
+                <option value="" selected>Filter by Category</option> @foreach (var genre in Model.Genres)
+                {
+                    <option selected="@(genre.Id == Model.GenreId)" value="@genre.Id">@genre.GenreName</option>
+                }
+            </select>
+        </div>
+
+        <div class="col-auto ">
+            <label class="visually-hidden" for="sterm">Search by title</label>
+            <div class="input-group">
+                <div class="input-group-text input-group-text-custom">
+                    <i class="bi bi-search"></i>
+                </div>
+                <input type="text" class="form-control" value="@Model.STerm" id="sterm" name="sterm" placeholder="Search by Product">
+            </div>
+        </div>
+
+        <div class="col-auto">
+            <button type="submit" class="btn btn-success">Search</button>
+        </div>
+        <div class="col-auto">
+            <a href="/Home/Index" class="btn btn-info">Reset</a>
+        </div>
+    </form>
+</div>
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-6 g-2 mt-4 full-width-row">
+    @foreach (var product in Model.Products)
+    {
+        <div class="col">
+            <div class="card custom-card">
+                @*Normal pic show(S1)==========================================*@
+                @* @if (string.IsNullOrEmpty(product.Image))
+                {
+                    <img src="/Images/no-symbol.jpg" class="card-img-top-custom" alt="No image available">
+                }
+                else
+                {
+                    <img src="/Images/@product.Image" class="card-img-top-custom" alt="@product.ProductName Image">
+                } *@
+                @*Normal pic show(S1)==========================================*@
+                @*On click Picture to show details (S2)========================*@
+                @{
+                    // imageUrl is a variable, if any pic is not set it show defalt pic path
+                    string imageUrl = string.IsNullOrWhiteSpace(product.Image) ? "/Images/no-symbol.jpg" : $"/Images/{product.Image}";
+
+                    // For pic name seted alt Text
+                    string altText = string.IsNullOrWhiteSpace(product.Image) ? "No image available" : $"{product.ProductName} Image";
+                }
+                <a asp-controller="Product" asp-action="ProductDetails" asp-route-id="@product.Id" class="d-block">
+                    <img src="@imageUrl"
+                         class="card-img-top-custom"
+                         style="width: 100%;  object-fit: cover;"
+                         alt="@altText">
+                </a>
+                @*On click Picture to show details (S2)========================*@
+
+
+                <div class="card-body card-body-custom d-flex flex-column">
+                    <h5 class="card-title text-info fw-bold">@product.ProductName</h5>
+
+                    <p class="card-text mb-2">
+                        <b class="card-text text-black"> Category: </b>@product.GenreName <br />
+                        <b class="card-text text-black">Company: </b>@product.CompanyName
+                    </p>
+                    <span class="product-price">৳ @product.Price</span>
+
+                    <div class="mt-3">
+                        @if (product.Quantity > 0)
+                        {
+                            <button type="button" onclick="add(@product.Id)" class="btn btn-sm btn-cart-custom me-1 mb-1">
+                                <i class="bi bi-cart-plus"></i> Add to cart
+                            </button>
+                        }
+                        else
+                        {
+                            <span class="out-of-stock-badge me-1 mb-1">Out of stock</span>
+                        }
+                        @* <a asp-controller="Product" asp-action="ProductDetails" asp-route-id="@product.Id" type="button" class="btn btn-sm btn-details-custom me-1 mb-1">Detail</a> *@
+                        <button type="button" onclick="add(@product.Id)" class="btn btn-sm btn-buy-custom mb-1">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+@*===================Pop up Toast nofication=======================*@
+<div class="toast-container position-fixed bottom-0 end-0 p-3">
+    <div id="addToCartToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header bg-success text-white">
+            <strong class="me-auto">Success!</strong>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+            Product added to cart! 🛒
+        </div>
+    </div>
+</div>
+@*===================Pop up Toast nofication=======================*@
+
+
+<!--------------------- Button (angular bracket Icon) ---------------------->
+<button class="btn btn-danger side-button" style="color:cyan" type="button" data-bs-toggle="offcanvas" data-bs-target="#productDetails" aria-controls="productDetails">
+    <i class="bi bi-chevron-left"></i>
+</button>
+
+<!-- Offcanvas / Side Page -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="productDetails" aria-labelledby="productDetailsLabel" style="background-color: deepskyblue; color:  black;">
+    <div class="offcanvas-header" style="color:black">
+        <h5 id="productDetailsLabel"><strong>Delivery Options</strong></h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <hr />
+    <div>
+        <ul>
+            <li><b style="color:darkred">📞Hotline Number1:</b> +88001555558</li>
+            <li><b style="color:darkred">📞Hotline Number2:</b> +88069854556</li>
+            <li><b>📞Personal Number1:</b> +8801235555558</li>
+            <li><b>📞Personal Number2:</b> +8801755558777</li>
+        </ul>
+    </div>
+    <div class="offcanvas-body" style="color:black">
+        <p><strong>📍Available Delivery Area:</strong> All over Bangladesh</p>
+        <p><strong>⏳Available Delivery Time:</strong> Inside Dhaka-12.00<br />Outside Of Dhaka- 2 days</p>
+        <p><strong>⏰Delivery Time:</strong> 1-7 working days</p>
+        <p><strong>💲Shipping Charge:</strong> Free Shipping</p>
+        <p><strong>Payment Options:</strong></p>
+        <hr />
+        <ul>
+            <li>Cripto</li>
+            <li>Bkash</li>
+            <li>MasterCard</li>
+            <li>Visa</li>
+        </ul>
+        <div class="cartpic">
+            <ul class="typeofcart">
+                <li class="cart1"><img title="Cripto" src="/Images/Crypto.jpg" height="100" width="150" /></li>
+                <li class="cart2"><img title="Bkash" src="/Images/Bkash.jpg" height="100" width="150" /></li>
+                <li class="cart3"><img title="MasterCard" src="/Images/mastercard_PNG23.png" height="100" width="150" /></li>
+                <li class="cart4"><img title="Visa" src="/Images/visa.png" height="100" width="150" /></li>
+            </ul>
+        </div>
+        <hr />
+
+        <div>
+            @*================For Footer===================*@
+            <footer class="bg-info text-dark text-center py-4 mt-auto">
+                <div class="container">
+                    <p class="mb-2">&copy; @DateTime.Now.Year - Connect Us With-<strong>Social Platform</strong></p>
+                    <div>
+                        <a href="https://www.facebook.com/yourprofile" target="_blank"
+                           class="text-dark mx-3" style="font-size: 30px; text-decoration: none;">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://twitter.com/yourprofile" target="_blank"
+                           class="text-dark mx-3" style="font-size: 30px; text-decoration: none;">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/yourprofile" target="_blank"
+                           class="text-dark mx-3" style="font-size: 30px; text-decoration: none;">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="mailto:support@khati.com"
+                           class="text-dark mx-3" style="font-size: 30px; text-decoration: none;">
+                            <i class="fa fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </footer>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+            <style>
+                body {
+                    display: flex;
+                    flex-direction: column;
+                    min-height: 100vh;
+                }
+
+                .body-content {
+                    flex: 1;
+                }
+
+                footer a:hover {
+                    color: #0d6efd !important;
+                }
+            </style>
+            @*================For Footer===================*@
+        </div>
+    </div>
+
+
+    <!--  -->
+    <!--  -->
+</div>
+<!--------------------- Button (angular bracket Icon) ----------------------><!-- Left Side Button -->
+
+
+@*======================main Js=============*@
+@section Scripts {
+    <script>
+        var toastEl = document.getElementById('addToCartToast');
+        var cartToast = new bootstrap.Toast(toastEl, {
+            autohide: true,
+            delay: 3000
+        });
+        async function add(productId) {
+            var usernameEl = document.getElementById("username");
+            if (usernameEl == null) {
+                window.location.href = "/Identity/Account/Login";
+            }
+            try {
+                var response = await fetch(`/Cart/AddItem?productId=${productId}`);
+                if (response.status == 200) {
+                    var result = await response.json();
+                    var cartCountEl = document.getElementById("cartCount");
+                    cartCountEl.innerHTML = result;
+                    cartToast.show();//Pop up Toast nofication
+                } else {
+                    alert("Something Wrong with Add To CArt");
+                }
+            }
+            catch (err) {
+                console.log(err);
+                alert("First You Need To 🤝Register(If You Are New) /To 💪Log in(If You Are Previous Customer)");
+            }
+        }
+    </script>
+}
+@*======================main Js=============*@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+    .full-width-row {
+        width: 100vw;
+        margin-left: calc(-50vw + 50%);
+        padding-left:30px;
+        padding-right:30px;
+        padding-bottom:10px;
+    }
+    /* custom style */
+    .product-filter-section {
+        background-color: #f8f9fa;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,.05);
+    }
+
+    .custom-card {
+        background-color: white;
+        border: 1px solid #dee2e6;
+        border-radius: 8px;
+        transition: transform 0.2s, box-shadow 0.2s;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 2px 4px rgba(0,0,0,.05); 
+    }
+
+        .custom-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,.1);
+        }
+
+    .card-img-top-custom {
+        object-fit: cover;
+        height: 250px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+
+    .card-body-custom {
+        padding: 15px;
+        flex-grow: 1;
+        color: #333;
+    }
+
+    .card-title-custom {
+        color: #007bff;
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    /*"Created By: Packet" "Company: eee" */
+    .card-text-custom {
+        color: #6c757d;
+        margin-bottom: 0.5rem;
+        font-size: 1rem;
+    }
+
+        .card-text-custom b {
+            color: #333;
+        }
+
+    .card-text b {
+        color: #6c757d;
+    }
+
+    .product-price {
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: #28a745; 
+        margin-top: 10px;
+        margin-bottom: 15px;
+        display: block;
+    }
+
+    .out-of-stock-badge {
+        background-color: #dc3545;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-weight: 600;
+        display: inline-block;
+        font-size: 1rem;
+    }
+
+    
+    .btn-cart-custom {
+        background-color: #ffc107;
+        border-color: #ffc107;
+        color: #212529;
+        padding: 8px 15px;
+        font-size: 1rem;
+    }
+
+        .btn-cart-custom:hover {
+            background-color: #e0a800;
+            border-color: #e0a800;
+            color: #212529;
+        }
+
+    .btn-details-custom {
+        background-color: #17a2b8;
+        border-color: #17a2b8;
+        color: white;
+        padding: 8px 15px;
+        font-size: 1rem;
+    }
+
+        .btn-details-custom:hover {
+            background-color: #138496;
+            border-color: #138496;
+        }
+
+    .btn-buy-custom {
+        background-color: #28a745;
+        border-color: #28a745;
+        color: white;
+        padding: 8px 15px;
+        font-size: 1rem;
+    }
+
+        .btn-buy-custom:hover {
+            background-color: #1e7e34;
+            border-color: #1e7e34;
+        }
+
+
+    .input-group-text-custom {
+        background-color: #28a745;
+        color: white;
+        border-color: #28a745;
+    }
+    /*card gulir akar*/
+    .typeofcart {
+        padding-bottom: 500px;
+        height: 10px;
+        width: 10px;
+    }
+
+    /*for side page*/
+    .side-button {
+        position: fixed;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        z-index: 1050;
+        border-radius: 8px 0 0 8px;
+        padding: 10px 12px;
+    }
+
+    .offcanvas {
+        width: 380px; /* panel */
+    }
+    /*for side page*/
+
+    /*for cart*/
+    ul.typeofcart {
+        list-style-type: none;
+        padding-left: 0;
+        margin: 0;
+        /* Grid layout */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        justify-items: center;
+        align-items: center;
+    }
+
+        ul.typeofcart li img {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 5px;
+            transition: transform 0.3s ease;
+        }
+
+            ul.typeofcart li img:hover {
+                transform: scale(1.05);
+                box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            }
+    /*for cart*/
+
+</style>
+
+
+
+
+
+
+
+
+
+
+

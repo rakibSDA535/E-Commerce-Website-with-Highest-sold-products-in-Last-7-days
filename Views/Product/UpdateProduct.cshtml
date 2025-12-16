@@ -1,0 +1,440 @@
+﻿@model ProductDTO
+@{
+    Layout = "_AdminLayout";
+    ViewData["Title"] = "Update Product";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-12 col-lg-10 col-xl-8">
+
+            <div class="card shadow-lg border-0 rounded-4">
+                <div class="card-header bg-primary text-white p-3 rounded-top-4 d-flex justify-content-between align-items-center">
+                    <h2 class="mb-0 fs-4"><i class="bi bi-pencil-square me-2"></i> Update Product Details</h2>
+                    <a asp-action="Index" asp-controller="Product" class="btn btn-light btn-sm fw-bold">
+                        <i class="bi bi-arrow-left-circle-fill me-1"></i> Back to List
+                    </a>
+                </div>
+
+                <form asp-action="UpdateProduct" enctype="multipart/form-data" class="p-4">
+                    <div asp-validation-summary="ModelOnly" class="alert alert-danger" role="alert"></div>
+                    <input type="hidden" asp-for="Id" />
+                    <input type="hidden" asp-for="Image" />
+
+                    <h4 class="mt-3 mb-3 text-secondary border-bottom pb-2">Basic Information</h4>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label asp-for="ProductName" class="form-label fw-bold">Product Name*</label>
+                            <input type="text" class="form-control" asp-for="ProductName" placeholder="Enter product name" />
+                            <span asp-validation-for="ProductName" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+                            <label asp-for="CompanyName" class="form-label fw-bold">Company Name*</label>
+                            <input type="text" class="form-control" asp-for="CompanyName" placeholder="Enter company name" />
+                            <span asp-validation-for="CompanyName" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <label asp-for="GenreId" class="form-label fw-bold">Category (Genre)*</label>
+                            <select class="form-select" asp-for="GenreId" asp-items="Model.GenreList">
+                                <option value="">--- Select Category ---</option>
+                            </select>
+                            <span asp-validation-for="GenreId" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-md-4 mb-3">
+                            <label asp-for="Price" class="form-label fw-bold">Price (৳)*</label>
+                            <input type="number" step="0.01" class="form-control" asp-for="Price" placeholder="0.00" />
+                            <span asp-validation-for="Price" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-md-4 mb-3">
+                            <label asp-for="ReleaseDate" class="form-label fw-bold">Release Date*</label>
+                            <input type="date" class="form-control" asp-for="ReleaseDate" />
+                            <span asp-validation-for="ReleaseDate" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <hr />
+                    <h4>Stock Information</h4>
+                    <div class="my-2">
+                        @* এখানে Stock-এর জন্য কোড যোগ করা হলো *@
+                        <input type="hidden" asp-for="Stock.Id" /> @* বিদ্যমান স্টকের Id সংরক্ষণের জন্য *@
+                        <label asp-for="Stock.Quantity">Stock Quantity*</label>
+                        <input type="number" class="form-control" asp-for="Stock.Quantity" />
+                        <span asp-validation-for="Stock.Quantity" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="form-check form-switch p-0">
+                            <input class="form-check-input ms-0" type="checkbox" id="OnSaleSwitch" asp-for="OnSale">
+                            <label class="form-check-label ms-3 fw-bold" for="OnSaleSwitch">
+                                @(Model.OnSale ? "Product is currently On Sale" : "Mark as On Sale")
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="mb-4 p-3 border rounded bg-light d-flex align-items-center">
+                        <div class="me-4 text-center">
+                            <label class="form-label d-block fw-bold mb-1">Current Image</label>
+                            @{
+                                string currentImageUrl = string.IsNullOrEmpty(Model.Image) ? "/Images/114320.jpg" : $"/Images/{Model.Image}";
+                            }
+                            <img src="@currentImageUrl" style="width: 100px; height: 100px; object-fit: cover;" class="rounded-circle border border-2 p-1" alt="Current Image" id="currentImagePreview" />
+                        </div>
+
+                        <div class="flex-grow-1">
+                            <label asp-for="ImageFile" class="form-label fw-bold">Upload New Image</label>
+                            <input type="file" class="form-control" asp-for="ImageFile" accept="image/*" id="imageUploadInput" />
+                            <span asp-validation-for="ImageFile" class="text-danger"></span>
+                            <small class="text-muted">Upload to replace the current image. Max 5MB.</small>
+                        </div>
+                    </div>
+
+                    <h4 class="mt-5 mb-3 text-secondary border-bottom pb-2">
+                        <i class="bi bi-table me-1"></i> Product Specifications
+                    </h4>
+
+                    <div class="table-responsive">
+                        <table class="table table-striped table-hover table-bordered" id="productInfoTable">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th style="width: 55%;">Description</th>
+                                    <th style="width: 25%;">Made In</th>
+                                    <th style="width: 20%;" class="text-center">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @* Existing Product Informations *@
+                                @for (int i = 0; i < Model.ProductInformations.Count; i++)
+                                {
+                                    <tr>
+                                        <td>
+                                            <input name="ProductInformations[@i].Id" type="hidden" value="@(Model.ProductInformations[i].Id)" />
+                                            <textarea name="ProductInformations[@i].Description" class="form-control form-control-sm" rows="2">@Model.ProductInformations[i].Description</textarea>
+                                            <span asp-validation-for="@Model.ProductInformations[i].Description" class="text-danger small"></span>
+                                        </td>
+                                        <td>
+                                            <input name="ProductInformations[@i].MadeIn" class="form-control form-control-sm" value="@Model.ProductInformations[i].MadeIn" />
+                                            <span asp-validation-for="@Model.ProductInformations[i].MadeIn" class="text-danger small"></span>
+                                        </td>
+                                        <td class="text-center">
+                                            <button type="button" class="btn btn-outline-danger btn-sm remove-info">
+                                                <i class="bi bi-x-circle"></i> Remove
+                                            </button>
+                                        </td>
+                                    </tr>
+
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <button type="button" id="addInfo" class="btn btn-outline-primary mb-5 fw-bold">
+                        <i class="bi bi-plus-circle-fill me-1"></i> Add More Info
+                    </button>
+
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-success btn-lg fw-bold">
+                            <i class="bi bi-check-circle-fill me-2"></i> Save Changes
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<table style="display:none">
+    <tbody id="infoRowTemplate">
+        <tr>
+            <td>
+                <input name="ProductInformations[__idx__].Id" type="hidden" value="0" />
+                <textarea name="ProductInformations[__idx__].Description" class="form-control form-control-sm" rows="2" placeholder="Enter description"></textarea>
+                <span data-valmsg-for="ProductInformations[__idx__].Description" class="text-danger small"></span>
+            </td>
+            <td>
+                <input name="ProductInformations[__idx__].MadeIn" class="form-control form-control-sm" placeholder="e.g. China/USA" />
+                <span data-valmsg-for="ProductInformations[__idx__].MadeIn" class="text-danger small"></span>
+            </td>
+            <td class="text-center">
+                <button type="button" class="btn btn-outline-danger btn-sm remove-info">
+                    <i class="bi bi-x-circle"></i> Remove
+                </button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+    <script>
+        (function () {
+            document.getElementById('imageUploadInput').addEventListener('change', function(event) {
+                const [file] = event.target.files;
+                if (file) {
+                    const preview = document.getElementById('currentImagePreview');
+                    preview.src = URL.createObjectURL(file);
+                    preview.classList.remove('rounded-circle');
+                    preview.classList.add('rounded-3');
+                }
+            });
+            function reindex() {
+                $('#productInfoTable tbody tr').each(function (i, tr) {
+                    var $tr = $(tr);
+                    $tr.find('input, select, textarea').each(function () {
+                        var name = $(this).attr('name');
+                        if (!name) return;
+                        var newName = name.replace(/ProductInformations\[\d+\]/, 'ProductInformations[' + i + ']');
+                        $(this).attr('name', newName);
+                    });
+                    $tr.find('span[data-valmsg-for]').each(function() {
+                        var valMsgFor = $(this).attr('data-valmsg-for');
+                        if (!valMsgFor) return;
+
+                        var newValMsgFor = valMsgFor.replace(/ProductInformations\[\d+\]/, 'ProductInformations[' + i + ']');
+                        $(this).attr('data-valmsg-for', newValMsgFor);
+                    });
+                });
+            }
+            $('#addInfo').click(function () {
+                var index = $('#productInfoTable tbody tr').length;
+                var template = $('#infoRowTemplate').html().replace(/__idx__/g, index);
+                $('#productInfoTable tbody').append(template);
+                var form = $('form');
+                form.removeData('validator');
+                form.removeData('unobtrusiveValidation');
+                $.validator.unobtrusive.parse(form);
+
+                reindex();
+            });
+            $('#productInfoTable').on('click', '.remove-info', function () {
+                $(this).closest('tr').remove();
+                $('form').data('validator').resetForm();
+
+                reindex();
+            });
+            reindex();
+            $('#OnSaleSwitch').on('change', function() {
+                var label = $(this).next('label');
+                if ($(this).is(':checked')) {
+                    label.text('Product is currently On Sale');
+                } else {
+                    label.text('Mark as On Sale');
+                }
+            }).trigger('change');
+
+        })();
+    </script>
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@* @model ProductDTO
+@{
+    Layout = "_AdminLayout";
+}
+<div style="width:70%">
+    <h2>Update Product</h2>
+    <a asp-action="Index" asp-controller="Product" class="btn btn-primary">Back</a>
+    <form asp-action="UpdateProduct" enctype="multipart/form-data">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <input type="hidden" asp-for="Id" />
+        <input type="hidden" asp-for="Image" />
+
+        <div class="my-2">
+            <label asp-for="ProductName">Product*</label>
+            <input type="text" class="form-control" asp-for="ProductName" />
+            <span asp-validation-for="ProductName" class="text-danger"></span>
+        </div>
+
+        <div class="my-2">
+            <label asp-for="CompanyName">Company*</label>
+            <input type="text" class="form-control" asp-for="CompanyName" />
+            <span asp-validation-for="CompanyName" class="text-danger"></span>
+        </div>
+
+        <div class="my-2">
+            <label asp-for="GenreId">Genre*</label>
+            <select class="form-control" asp-for="GenreId" asp-items="Model.GenreList">
+                <option value="">Select Genre</option>
+            </select>
+            <span asp-validation-for="GenreId" class="text-danger"></span>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 my-2">
+                <label asp-for="Price">Price*</label>
+                <input type="number" step="0.01" class="form-control" asp-for="Price" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="col-md-4 my-2">
+                <label asp-for="ReleaseDate">Release Date*</label>
+                <input type="date" class="form-control" asp-for="ReleaseDate" />
+                <span asp-validation-for="ReleaseDate" class="text-danger"></span>
+            </div>
+            <div class="col-md-4 my-2 form-check" style="padding-top: 30px;">
+                <input class="form-check-input" type="checkbox" asp-for="OnSale" />
+                <label class="form-check-label" asp-for="OnSale"></label>
+            </div>
+        </div>
+
+        <div class="my-2">
+            <label asp-for="ImageFile">Image</label>
+            @if (!string.IsNullOrEmpty(Model.Image))
+            {
+                <img src="/Images/@Model.Image" style="width:100px;height:80px" class="d-block mb-2" />
+            }
+            <input type="file" class="form-control" asp-for="ImageFile" />
+            <span asp-validation-for="ImageFile" class="text-danger"></span>
+        </div>
+
+        <hr />
+        <h4>Product Information (Details)</h4>
+        <table class="table table-bordered" id="productInfoTable">
+            <thead>
+                <tr>
+                    <th>Description</th>
+                    <th>Made In</th>
+                    <th style="width: 100px;">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (int i = 0; i < Model.ProductInformations.Count; i++)
+                {
+                    <tr>
+                        <td>
+                            <input name="ProductInformations[@i].Id" type="hidden" value="@Model.ProductInformations[i].Id" />
+                            <textarea name="ProductInformations[@i].Description" class="form-control">@Model.ProductInformations[i].Description</textarea>
+                            <span asp-validation-for="@Model.ProductInformations[i].Description" class="text-danger"></span>
+                        </td>
+                        <td>
+                            <input name="ProductInformations[@i].MadeIn" class="form-control" value="@Model.ProductInformations[i].MadeIn" />
+                            <span asp-validation-for="@Model.ProductInformations[i].MadeIn" class="text-danger"></span>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-danger btn-sm remove-info">Remove</button>
+                        </td>
+                    </tr>
+
+                }
+            </tbody>
+        </table>
+
+        <button type="button" id="addInfo" class="btn btn-secondary mb-3">Add More Info</button>
+
+        <hr />
+        <div class="my-2">
+            <button type="submit" class="btn btn-info">Update</button>
+        </div>
+    </form>
+</div>
+
+<table style="display:none">
+    <tbody id="infoRowTemplate">
+        <tr>
+            <td>
+                <input name="ProductInformations[__idx__].Id" type="hidden" value="0" />
+                <textarea name="ProductInformations[__idx__].Description" class="form-control"></textarea>
+            </td>
+            <td><input name="ProductInformations[__idx__].MadeIn" class="form-control" /></td>
+            <td><button type="button" class="btn btn-danger btn-sm remove-info">Remove</button></td>
+        </tr>
+    </tbody>
+</table>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+    <script>
+        (function () {
+            // রিনডেক্সিং ফাংশন যা মডেল বাইন্ডিং-এর জন্য ইনপুট নামগুলি ঠিক করে
+            function reindex() {
+                $('#productInfoTable tbody tr').each(function (i, tr) {
+                    $(tr).find('input, select, textarea').each(function () {
+                        var name = $(this).attr('name');
+                        if (!name) return;
+
+                        // নাম এবং আইডি আপডেট করা হচ্ছে
+                        var newName = name.replace(/ProductInformations\[\d+\]/, 'ProductInformations[' + i + ']');
+                        $(this).attr('name', newName);
+
+                        // Validation attributes (data-val-*) আপডেট করা
+                        $.each(this.attributes, function() {
+                            if (this.specified && this.name.startsWith('data-val-')) {
+                                var newAttrValue = this.value.replace(/ProductInformations\.\d+\./, 'ProductInformations.' + i + '.');
+                                $(this).attr(this.name, newAttrValue);
+                            }
+                        });
+
+                        // Validation মেসেজ স্প্যান-এর আইডি আপডেট করা
+                        var validationSpan = $('span[data-valmsg-for="' + name + '"]');
+                        if (validationSpan.length) {
+                             validationSpan.attr('data-valmsg-for', newName);
+                        }
+                    });
+                });
+            }
+
+            $('#addInfo').click(function () {
+                var index = $('#productInfoTable tbody tr').length;
+                // টেমপ্লেটে '__idx__' কে বর্তমান ইনডেক্স দিয়ে প্রতিস্থাপন করা হচ্ছে।
+                var template = $('#infoRowTemplate').html().replace(/__idx__/g, index);
+                $('#productInfoTable tbody').append(template);
+
+                // ক্লায়েন্ট-সাইড ভ্যালিডেশন রি-পার্স করা
+                var form = $('form');
+                form.removeData('validator');
+                form.removeData('unobtrusiveValidation');
+                $.validator.unobtrusive.parse(form);
+
+                reindex(); // নতুন রো যোগ করার পর ইনডেক্সিং আপডেট করা হচ্ছে।
+            });
+
+            // "Remove" বাটনে ক্লিক করলে রো ডিলিট করা এবং ইনডেক্সিং আপডেট করা।
+            $('#productInfoTable').on('click', '.remove-info', function () {
+                $(this).closest('tr').remove();
+                reindex(); // ডিলিট করার পর ইনডেক্সিং আপডেট করা হচ্ছে।
+            });
+
+            // প্রথমবার পেজ লোড হওয়ার সময় রিনডেক্স নিশ্চিত করা (যদি মডেল ডেটা থাকে)
+            reindex();
+        })();
+    </script>
+} *@

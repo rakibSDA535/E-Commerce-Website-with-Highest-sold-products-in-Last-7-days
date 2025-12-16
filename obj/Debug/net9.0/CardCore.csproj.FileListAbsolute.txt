@@ -1,0 +1,877 @@
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\CardCore.csproj.AssemblyReference.cache
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\rpswa.dswa.cache.json
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\CardCore.GeneratedMSBuildEditorConfig.editorconfig
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\CardCore.AssemblyInfoInputs.cache
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\CardCore.AssemblyInfo.cs
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\CardCore.csproj.CoreCompileInputs.cache
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\CardCore.MvcApplicationPartsAssemblyInfo.cs
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\CardCore.MvcApplicationPartsAssemblyInfo.cache
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\CardCore.RazorAssemblyInfo.cache
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\CardCore.RazorAssemblyInfo.cs
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\appsettings.Development.json
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\appsettings.json
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\CardCore.staticwebassets.runtime.json
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\CardCore.staticwebassets.endpoints.json
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\CardCore.exe
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\CardCore.deps.json
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\CardCore.runtimeconfig.json
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\CardCore.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\CardCore.pdb
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Azure.Core.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Azure.Identity.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Humanizer.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.UI.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.AspNetCore.Razor.Language.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Build.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Build.Framework.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.CodeAnalysis.Elfie.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.CodeAnalysis.Features.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.CodeAnalysis.Razor.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.CodeAnalysis.Scripting.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Data.Sqlite.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.DiaSymReader.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.DotNet.Scaffolding.Shared.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Embedded.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.NET.StringTools.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\dotnet-aspnet-codegenerator-design.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Mono.TextTemplating.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\Newtonsoft.Json.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\NuGet.Common.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\NuGet.Configuration.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\NuGet.DependencyResolver.Core.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\NuGet.Frameworks.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\NuGet.LibraryModel.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\NuGet.Packaging.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\NuGet.ProjectModel.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\NuGet.Protocol.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\NuGet.Versioning.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\SQLitePCLRaw.batteries_v2.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\SQLitePCLRaw.core.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\SQLitePCLRaw.provider.e_sqlite3.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\System.ClientModel.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\System.CodeDom.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\System.Composition.Convention.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\System.Composition.Hosting.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\System.Composition.Runtime.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\System.Composition.TypedParts.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\System.Memory.Data.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\System.Reflection.MetadataLoadContext.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\System.Runtime.Caching.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\af\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\ar\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\az\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\bg\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\bn-BD\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\cs\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\da\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\de\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\el\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\es\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\fa\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\fi-FI\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\fr\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\fr-BE\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\he\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\hr\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\hu\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\hy\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\id\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\is\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\it\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\ja\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\ko-KR\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\ku\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\lv\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\ms-MY\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\mt\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\nb\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\nb-NO\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\nl\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\pl\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\pt\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\ro\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\ru\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\sk\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\sl\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\sr\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\sr-Latn\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\sv\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\th-TH\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\tr\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\uk\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\uz-Cyrl-UZ\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\uz-Latn-UZ\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\vi\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\zh-CN\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\zh-Hans\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\zh-Hant\Humanizer.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\runtimes\linux-arm\native\libe_sqlite3.so
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\runtimes\linux-arm64\native\libe_sqlite3.so
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\runtimes\linux-armel\native\libe_sqlite3.so
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\runtimes\linux-mips64\native\libe_sqlite3.so
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\runtimes\linux-musl-s390x\native\libe_sqlite3.so
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\runtimes\linux-s390x\native\libe_sqlite3.so
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\runtimes\linux-x64\native\libe_sqlite3.so
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\runtimes\linux-x86\native\libe_sqlite3.so
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\runtimes\win-arm\native\e_sqlite3.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\rjimswa.dswa.cache.json
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\scopedcss\bundle\CardCore.styles.css
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\scopedcss\projectbundle\CardCore.bundle.scp.css
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\ofa40bqe71-b9sayid5wm.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\j9swiz3yzq-90yqlj465b.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\vltxs1u3vm-xtxxf3hu2r.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\14ipv7q33s-bqjiyaj88i.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\rh65p086id-c2jlpeoesf.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\eb27mqwgz2-erw9l3u2r3.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\9glsckmvxo-aexeepp0ev.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\hh8ihyobdx-d7shbmvgxk.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\bww8ud00yd-ausgxo2sd3.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\edcrak57d7-k8d9w2qqmf.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\sf8kf2lula-cosvhxvwiu.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\3tzsqhslk9-ub07r2b239.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\oxk5o6czdw-fvhpjtyr6v.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\k8b25g0zwc-b7pk76d08c.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\8axix7wldr-fsbi9cje9m.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\d5z9sfpxbi-rzd6atqjts.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\u8428c4e9i-ee0r1s7dh0.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\tg53r17ghy-dxx9fxp4il.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\nlrl0f3xs3-jd9uben2k1.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\1fc4q00scq-khv3u5hwcm.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\8xykfy6qmd-r4e9w2rdcm.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\vsrbd71spn-lcd1t2u6c8.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\cynp17w084-c2oey78nd0.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\7o8oyvng68-tdbxkamptv.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\h9vwtoirpy-j5mq2jizvt.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\o5k23vqhrk-06098lyss8.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\iznc766avz-nvvlpmu67g.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\ns4583i71s-s35ty4nyc5.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\47012z8l2l-pj5nd1wqec.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\4vzefxwp2m-46ein0sx1k.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\bh4v3mdph9-v0zj4ognzu.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\l186vlgaag-37tfw0ft22.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\rsc7qacj1u-hrwsygsryq.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\z408qb6q7a-pk9g2wxc8p.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\qfr28sqcy1-ft3s53vfgj.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\0k1i85ntyh-6cfz1n2cew.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\xa379ftczi-6pdc2jztkx.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\lr5hmrr0j7-493y06b0oq.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\ivy2s9gwh5-iovd86k7lj.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\higufxz8op-vr1egmr9el.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\s3tglgz8hr-kbrnm935zg.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\vw9sls9bhj-jj8uyg4cgr.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\ym8tkpcl2i-y7v9cxd14o.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\zzna4nrm5w-notf2xhcfb.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\igscs4x0yk-h1s4sie4z3.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\zap00c0tb5-63fj8s7r0e.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\pogzkicjpz-0j3bgjxly4.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\j3hwsq15kh-47otxtyo56.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\q3naettu8c-4v8eqarkd7.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\ldxy2n3w6q-356vix0kms.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\ypthv7q62w-83jwlth58m.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\t6e3b82hrf-mrlpezrjn3.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\uocis9wxbx-lzl9nlhx6b.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\2tikzqlmtu-ag7o75518u.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\9muusbdg0a-x0q3zqp4vz.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\tpsq5dibur-0i3buxo5is.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\t0qo7o574p-o1o13a6vjx.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\b9lhb08218-ttgo8qnofa.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\a3ygkwa5zy-2z0ns9nrw6.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\nezrqnk58p-muycvpuwrr.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\v0zgfp0y55-87fc7y1x7t.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\rkmt96vker-ge2yle0d7k.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\nouat79773-b9sayid5wm.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\vffuu33ali-61n19gt1b8.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\w2fdu0nvmj-xtxxf3hu2r.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\fm1x47e2gj-bqjiyaj88i.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\onlxz0gnn0-c2jlpeoesf.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\oqcbh2uqdh-erw9l3u2r3.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\8176xo3lon-aexeepp0ev.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\ld2f1dzncc-d7shbmvgxk.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\k29wns8xxs-ausgxo2sd3.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\bvfd96uutc-k8d9w2qqmf.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\ks3mxht82l-cosvhxvwiu.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\2ff1hfitke-ub07r2b239.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\f60w85rljk-fvhpjtyr6v.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\nz78zki26u-b7pk76d08c.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\gc0wiyfwqt-fsbi9cje9m.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\jt46egicb8-rzd6atqjts.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\pmunejdws2-ee0r1s7dh0.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\cpqqetisde-dxx9fxp4il.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\e813ddsoyh-jd9uben2k1.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\ax7smbr9lx-khv3u5hwcm.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\n43tv802fl-r4e9w2rdcm.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\ooyn7n373g-lcd1t2u6c8.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\ktysenoov7-c2oey78nd0.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\c78f3x703f-tdbxkamptv.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\7m6lddeiu9-j5mq2jizvt.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\qoosgb9d0t-06098lyss8.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\5ld571gxly-nvvlpmu67g.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\ypnrcv96hx-s35ty4nyc5.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\ownfgz6xbq-pj5nd1wqec.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\h6dcjsy89e-46ein0sx1k.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\d8gel6b2hk-v0zj4ognzu.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\i0p9yacktu-37tfw0ft22.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\q4g83h8wge-hrwsygsryq.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\tp5hvwnb8v-pk9g2wxc8p.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\n5tmeiaqr7-ft3s53vfgj.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\u3ljoidnkg-6cfz1n2cew.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\40gbtjebdm-6pdc2jztkx.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\qjextyfnd1-493y06b0oq.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\p1zgzgyoww-iovd86k7lj.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\r4o4788iib-vr1egmr9el.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\6t46lxxw3n-kbrnm935zg.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\5w3r0bcboh-jj8uyg4cgr.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\0zf3g43ojx-y7v9cxd14o.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\xxtca4uewl-notf2xhcfb.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\m3ffzna8on-h1s4sie4z3.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\d0dmfl02s0-63fj8s7r0e.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\w6hp5i15uz-0j3bgjxly4.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\dwdqzsc2qg-47otxtyo56.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\deh7gp48jf-4v8eqarkd7.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\fih2mk8i4g-356vix0kms.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\0c3g9k4y4x-83jwlth58m.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\bwkn9dqlrs-mrlpezrjn3.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\86scelnipf-lzl9nlhx6b.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\a5ujvmnkfz-ag7o75518u.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\xupfwmxs2f-x0q3zqp4vz.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\d47376pi1q-0i3buxo5is.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\ggjtosqimp-o1o13a6vjx.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\htw8189mat-ttgo8qnofa.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\4e6v096gep-2z0ns9nrw6.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\d13jvfmf4q-muycvpuwrr.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\5j2pe8005n-87fc7y1x7t.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\326isrh61p-mlv21k5csn.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\staticwebassets.build.json
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\staticwebassets.build.json.cache
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\staticwebassets.development.json
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\CardCore.csproj.Up2Date
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\CardCore.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\refint\CardCore.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\CardCore.pdb
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\CardCore.genruntimeconfig.cache
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\ref\CardCore.dll
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\scopedcss\Views\Shared\_AdminLayout.cshtml.rz.scp.css
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\scopedcss\Views\Home\Index.cshtml.rz.scp.css
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\q862j5m716-2zd4j20gbl.gz
+F:\OneDrive\Desktop\New folder\CardCore\CardCore\obj\Debug\net9.0\compressed\v4hu6t8hvt-2zd4j20gbl.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\appsettings.Development.json
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\appsettings.json
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\CardCore.staticwebassets.runtime.json
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\CardCore.staticwebassets.endpoints.json
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\CardCore.exe
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\CardCore.deps.json
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\CardCore.runtimeconfig.json
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\CardCore.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\CardCore.pdb
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Azure.Core.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Azure.Identity.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Humanizer.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Build.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Build.Framework.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.CodeAnalysis.Elfie.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.CodeAnalysis.Features.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.CodeAnalysis.Razor.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Data.Sqlite.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.DiaSymReader.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.NET.StringTools.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\dotnet-aspnet-codegenerator-design.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Mono.TextTemplating.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Newtonsoft.Json.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\NuGet.Common.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\NuGet.Configuration.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\NuGet.DependencyResolver.Core.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\NuGet.Frameworks.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\NuGet.LibraryModel.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\NuGet.Packaging.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\NuGet.ProjectModel.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\NuGet.Protocol.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\NuGet.Versioning.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\SQLitePCLRaw.batteries_v2.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\SQLitePCLRaw.core.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\System.ClientModel.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\System.CodeDom.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\System.Composition.Convention.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\System.Composition.Hosting.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\System.Composition.Runtime.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\System.Composition.TypedParts.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\System.Memory.Data.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\System.Reflection.MetadataLoadContext.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\System.Runtime.Caching.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\af\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\ar\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\az\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\bg\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\bn-BD\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\cs\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\da\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\de\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\el\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\es\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\fa\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\fi-FI\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\fr\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\fr-BE\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\he\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\hr\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\hu\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\hy\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\id\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\is\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\it\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\ja\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\ko-KR\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\ku\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\lv\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\ms-MY\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\mt\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\nb\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\nb-NO\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\nl\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\pl\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\pt\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\ro\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\ru\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\sk\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\sl\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\sr\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\sr-Latn\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\sv\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\th-TH\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\tr\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\uk\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\vi\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\zh-CN\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\zh-Hans\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\zh-Hant\Humanizer.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\runtimes\linux-musl-s390x\native\libe_sqlite3.so
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\CardCore.csproj.AssemblyReference.cache
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\rpswa.dswa.cache.json
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\CardCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\CardCore.AssemblyInfoInputs.cache
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\CardCore.AssemblyInfo.cs
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\CardCore.csproj.CoreCompileInputs.cache
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\CardCore.MvcApplicationPartsAssemblyInfo.cs
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\CardCore.MvcApplicationPartsAssemblyInfo.cache
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\CardCore.RazorAssemblyInfo.cache
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\CardCore.RazorAssemblyInfo.cs
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\rjimswa.dswa.cache.json
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\scopedcss\Views\Home\Index.cshtml.rz.scp.css
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\scopedcss\Views\Shared\_AdminLayout.cshtml.rz.scp.css
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\scopedcss\bundle\CardCore.styles.css
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\scopedcss\projectbundle\CardCore.bundle.scp.css
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\staticwebassets.build.json
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\staticwebassets.build.json.cache
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\staticwebassets.development.json
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\CardCore.csproj.Up2Date
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\CardCore.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\refint\CardCore.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\CardCore.pdb
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\CardCore.genruntimeconfig.cache
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\ref\CardCore.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\ofa40bqe71-{0}-b9sayid5wm-b9sayid5wm.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\j9swiz3yzq-{0}-90yqlj465b-90yqlj465b.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\vltxs1u3vm-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\14ipv7q33s-{0}-bqjiyaj88i-bqjiyaj88i.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\rh65p086id-{0}-c2jlpeoesf-c2jlpeoesf.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\eb27mqwgz2-{0}-erw9l3u2r3-erw9l3u2r3.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\9glsckmvxo-{0}-aexeepp0ev-aexeepp0ev.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\hh8ihyobdx-{0}-d7shbmvgxk-d7shbmvgxk.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\bww8ud00yd-{0}-ausgxo2sd3-ausgxo2sd3.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\edcrak57d7-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\sf8kf2lula-{0}-cosvhxvwiu-cosvhxvwiu.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\3tzsqhslk9-{0}-ub07r2b239-ub07r2b239.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\oxk5o6czdw-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\k8b25g0zwc-{0}-b7pk76d08c-b7pk76d08c.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\8axix7wldr-{0}-fsbi9cje9m-fsbi9cje9m.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\d5z9sfpxbi-{0}-rzd6atqjts-rzd6atqjts.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\u8428c4e9i-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\tg53r17ghy-{0}-dxx9fxp4il-dxx9fxp4il.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\nlrl0f3xs3-{0}-jd9uben2k1-jd9uben2k1.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\1fc4q00scq-{0}-khv3u5hwcm-khv3u5hwcm.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\8xykfy6qmd-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\vsrbd71spn-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\cynp17w084-{0}-c2oey78nd0-c2oey78nd0.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\7o8oyvng68-{0}-tdbxkamptv-tdbxkamptv.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\h9vwtoirpy-{0}-j5mq2jizvt-j5mq2jizvt.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\o5k23vqhrk-{0}-06098lyss8-06098lyss8.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\iznc766avz-{0}-nvvlpmu67g-nvvlpmu67g.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\ns4583i71s-{0}-s35ty4nyc5-s35ty4nyc5.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\47012z8l2l-{0}-pj5nd1wqec-pj5nd1wqec.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\4vzefxwp2m-{0}-46ein0sx1k-46ein0sx1k.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\bh4v3mdph9-{0}-v0zj4ognzu-v0zj4ognzu.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\l186vlgaag-{0}-37tfw0ft22-37tfw0ft22.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\rsc7qacj1u-{0}-hrwsygsryq-hrwsygsryq.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\z408qb6q7a-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\qfr28sqcy1-{0}-ft3s53vfgj-ft3s53vfgj.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\0k1i85ntyh-{0}-6cfz1n2cew-6cfz1n2cew.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\xa379ftczi-{0}-6pdc2jztkx-6pdc2jztkx.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\lr5hmrr0j7-{0}-493y06b0oq-493y06b0oq.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\ivy2s9gwh5-{0}-iovd86k7lj-iovd86k7lj.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\higufxz8op-{0}-vr1egmr9el-vr1egmr9el.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\s3tglgz8hr-{0}-kbrnm935zg-kbrnm935zg.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\vw9sls9bhj-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\ym8tkpcl2i-{0}-y7v9cxd14o-y7v9cxd14o.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\zzna4nrm5w-{0}-notf2xhcfb-notf2xhcfb.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\igscs4x0yk-{0}-h1s4sie4z3-h1s4sie4z3.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\zap00c0tb5-{0}-63fj8s7r0e-63fj8s7r0e.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\pogzkicjpz-{0}-0j3bgjxly4-0j3bgjxly4.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\j3hwsq15kh-{0}-47otxtyo56-47otxtyo56.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\q3naettu8c-{0}-4v8eqarkd7-4v8eqarkd7.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\ldxy2n3w6q-{0}-356vix0kms-356vix0kms.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\ypthv7q62w-{0}-83jwlth58m-83jwlth58m.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\t6e3b82hrf-{0}-mrlpezrjn3-mrlpezrjn3.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\uocis9wxbx-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\2tikzqlmtu-{0}-ag7o75518u-ag7o75518u.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\9muusbdg0a-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\tpsq5dibur-{0}-0i3buxo5is-0i3buxo5is.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\t0qo7o574p-{0}-o1o13a6vjx-o1o13a6vjx.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\b9lhb08218-{0}-ttgo8qnofa-ttgo8qnofa.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\a3ygkwa5zy-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\nezrqnk58p-{0}-muycvpuwrr-muycvpuwrr.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\v0zgfp0y55-{0}-87fc7y1x7t-87fc7y1x7t.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\yfc7ypekbg-{0}-mlv21k5csn-mlv21k5csn.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\tcrc9aghv8-{0}-ge2yle0d7k-ge2yle0d7k.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\bdwg6v807l-{0}-b9sayid5wm-b9sayid5wm.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\54yvpgn1yl-{0}-61n19gt1b8-61n19gt1b8.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\0x9nmr8mcy-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\59xgrddgay-{0}-bqjiyaj88i-bqjiyaj88i.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\dh25ini90h-{0}-c2jlpeoesf-c2jlpeoesf.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\zfe377trp9-{0}-erw9l3u2r3-erw9l3u2r3.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\6jvgyivzz0-{0}-aexeepp0ev-aexeepp0ev.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\0aahbw3k9h-{0}-d7shbmvgxk-d7shbmvgxk.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\byf85nrw1f-{0}-ausgxo2sd3-ausgxo2sd3.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\8zh2iac9a2-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\w29npwr1z1-{0}-cosvhxvwiu-cosvhxvwiu.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\r8689jic12-{0}-ub07r2b239-ub07r2b239.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\m5c5fab870-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\vxx4na0pny-{0}-b7pk76d08c-b7pk76d08c.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\z0uprkhrbt-{0}-fsbi9cje9m-fsbi9cje9m.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\6l3huce8k4-{0}-rzd6atqjts-rzd6atqjts.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\2rqkus3zmh-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\s3xf3eomcr-{0}-dxx9fxp4il-dxx9fxp4il.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\vg4qxc0cq0-{0}-jd9uben2k1-jd9uben2k1.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\osg16dpi40-{0}-khv3u5hwcm-khv3u5hwcm.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\clvk55pq1s-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\x9ushz5sja-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\fhybrxrl50-{0}-c2oey78nd0-c2oey78nd0.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\g0chrzjeqq-{0}-tdbxkamptv-tdbxkamptv.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\bp84xoapz3-{0}-j5mq2jizvt-j5mq2jizvt.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\klknhalvjv-{0}-06098lyss8-06098lyss8.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\dtlrbhb92c-{0}-nvvlpmu67g-nvvlpmu67g.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\zitrlbrkzj-{0}-s35ty4nyc5-s35ty4nyc5.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\x2i2orwk7c-{0}-pj5nd1wqec-pj5nd1wqec.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\zuc91uba43-{0}-46ein0sx1k-46ein0sx1k.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\truq2rbmvk-{0}-v0zj4ognzu-v0zj4ognzu.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\4dpssdlsdc-{0}-37tfw0ft22-37tfw0ft22.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\iur0tblzt0-{0}-hrwsygsryq-hrwsygsryq.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\t7lwgt4rop-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\hwqc7so9jp-{0}-ft3s53vfgj-ft3s53vfgj.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\hmdmt0tc7z-{0}-6cfz1n2cew-6cfz1n2cew.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\u3135xoleg-{0}-6pdc2jztkx-6pdc2jztkx.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\qpq5sh4d52-{0}-493y06b0oq-493y06b0oq.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\rpih4zqccz-{0}-iovd86k7lj-iovd86k7lj.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\m2gnll7b41-{0}-vr1egmr9el-vr1egmr9el.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\tqfvv1rts6-{0}-kbrnm935zg-kbrnm935zg.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\za3bnwyj7h-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\xtugtntgsp-{0}-y7v9cxd14o-y7v9cxd14o.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\r7qnkfa0rn-{0}-notf2xhcfb-notf2xhcfb.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\u52qnlej2a-{0}-h1s4sie4z3-h1s4sie4z3.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\8wjogsrimw-{0}-63fj8s7r0e-63fj8s7r0e.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\4darv02q30-{0}-0j3bgjxly4-0j3bgjxly4.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\kfgmqxadoh-{0}-47otxtyo56-47otxtyo56.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\7blegth482-{0}-4v8eqarkd7-4v8eqarkd7.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\92on77x4zk-{0}-356vix0kms-356vix0kms.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\rvdkddscqy-{0}-83jwlth58m-83jwlth58m.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\rxj98vopnr-{0}-mrlpezrjn3-mrlpezrjn3.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\hucn11if2d-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\a1eeduz5eg-{0}-ag7o75518u-ag7o75518u.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\21jqpvqi2a-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\czzpwtebha-{0}-0i3buxo5is-0i3buxo5is.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\xx6lab6zt5-{0}-o1o13a6vjx-o1o13a6vjx.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\byyph2yijc-{0}-ttgo8qnofa-ttgo8qnofa.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\nqhu52vzx0-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\c31uzx7ccu-{0}-muycvpuwrr-muycvpuwrr.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\rs6it7o9pk-{0}-87fc7y1x7t-87fc7y1x7t.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\k9weloy53y-{0}-mlv21k5csn-mlv21k5csn.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\e6s4n8nhxe-{0}-mbl2cjj5e3-mbl2cjj5e3.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\compressed\cvg72cqjzk-{0}-mbl2cjj5e3-mbl2cjj5e3.gz
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\obj\Debug\net9.0\swae.build.ex.cache
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll

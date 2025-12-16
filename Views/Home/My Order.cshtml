@@ -1,0 +1,76 @@
+﻿@model IEnumerable<Order>
+@{
+    ViewData["Title"] = "My Orders";
+}
+
+<div style="width:90%;margin:auto" class="mt-4">
+    <a href="/Identity/Account/Manage" class="btn btn-secondary my-2">Back</a>
+    <h3>📋 My Orders</h3>
+
+    @if (Model != null && Model.Any())
+    {
+        <table class="table table-striped mt-3">
+            <thead>
+                <tr>
+                    <th>Order Date</th>
+                    <th>Order Status</th>
+                    <th>Payment</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var order in Model)
+                {
+                    <tr>
+                        <td>@order.CreateDate.ToString("dd-MM-yyyy")</td>
+                        <td>@order.OrderStatus</td>
+                        <td>@order.PaymentStatus</td>
+                        <td>@(order.OrderDetail.Sum(i => i.Product.Price * i.Quantity))</td>
+                    </tr>
+
+                    @if (order.OrderDetail != null && order.OrderDetail.Any())
+                    {
+                        <tr>
+                            <td colspan="4">
+                                <table class="table table-bordered table-sm">
+                                    <thead>
+                                        <tr>
+                                            <th>Product</th>
+                                            <th>Image</th>
+                                            <th>Category</th>
+                                            <th>Company</th>
+                                            <th>Price x Qty</th>
+                                            <th>Total</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var item in order.OrderDetail)
+                                        {
+                                            <tr>
+                                                <td>@item.Product.ProductName</td>
+                                                <td>
+                                                    <img src="/Images/@(string.IsNullOrEmpty(item.Product.Image) ? "no-symbol-colorful-no-text-illustration-K5hH2ehj.jpg" : item.Product.Image)" style="width:100px;height:100px" />
+                                                </td>
+                                                <td>@item.Product.Genre.GenreName</td>
+                                                <td>@item.Product.CompanyName</td>
+                                                <td>@item.Product.Price x @item.Quantity</td>
+                                                <td>@(item.Product.Price* item.Quantity)</td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <h5>No orders found.</h5>
+    }
+</div>
+
+
+

@@ -1,0 +1,132 @@
+﻿@model CheckoutModel
+@{
+    ViewData["Title"] = "Checkout";
+}
+<div class="checkout-container my-5">
+    <h2 class="text-center text-white py-3 rounded-top">🛒 Checkout</h2>
+
+    <form asp-action="Checkout" class="checkout-form">
+        <div class="form-group mb-3">
+            <label asp-for="Name" class="form-label fs-4 text-black">Full Name*</label>
+            <input type="text" class="form-control form-control-lg" asp-for="Name" placeholder="Enter your full name" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="Email" class="form-label fs-4 text-black">Email*</label>
+            <input type="email" class="form-control form-control-lg" asp-for="Email" placeholder="Enter your email address" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="MobileNumber" class="form-label fs-4 text-black">Mobile Number*</label>
+            <input type="text" class="form-control form-control-lg" asp-for="MobileNumber" placeholder="e.g. 01XXXXXXXXX" />
+            <span asp-validation-for="MobileNumber" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="Address" class="form-label fs-4 text-black">Address*</label>
+            <textarea class="form-control form-control-lg" asp-for="Address" rows="4" placeholder="Enter your full address"></textarea>
+            <span asp-validation-for="Address" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-4">
+            <label asp-for="PaymentMethod" class="form-label fs-4 text-black">Payment Method*</label>
+            <select asp-for="PaymentMethod" class="form-select form-select-lg">
+                <option value="">-- Select Payment Method --</option>
+                @foreach (var method in Enum.GetValues(typeof(CardCore.Constants.PaymentMethods)))
+                {
+                    <option value="@method.ToString()">@method.ToString()</option>
+                }
+            </select>
+            <span asp-validation-for="PaymentMethod" class="text-danger"></span>
+        </div>
+
+        <div class="text-center">
+            <button type="submit" class="btn btn-success btn-lg px-5">
+                Next <i class="bi bi-arrow-right-circle ms-2"></i>
+            </button>
+        </div>
+    </form>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+    body {
+        background-color: #f1f3f6;
+        font-family: 'Segoe UI', sans-serif;
+    }
+    .checkout-container {
+        max-width: 600px;
+        margin: 50px auto;
+        background: linear-gradient(180deg, #ffffff, #f8f9fa);
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        padding: 25px 35px;
+        border: 1px solid #dee2e6;
+    }
+
+    .checkout-container h2 {
+        background: linear-gradient(90deg, #198754, #28a745);
+        font-weight: 600;
+    }
+
+    .checkout-form .form-control,
+    .checkout-form .form-select {
+        font-size: 1.1rem;
+        padding: 12px 15px;
+        border-radius: 10px;
+        transition: all 0.2s ease;
+    }
+
+    .checkout-form .form-control:focus,
+    .checkout-form .form-select:focus {
+        border-color: #198754;
+        box-shadow: 0 0 8px rgba(25, 135, 84, 0.3);
+    }
+    .checkout-form .btn-success {
+        font-size: 1.2rem;
+        font-weight: 600;
+        border-radius: 10px;
+        transition: all 0.3s ease;
+    }
+
+    .checkout-form .btn-success:hover {
+        background-color: #157347;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+</style>
+
+
+

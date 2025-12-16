@@ -1,0 +1,195 @@
+wwwroot\css\bootstrap.min.css
+wwwroot\css\site.css
+wwwroot\favicon.ico
+wwwroot\Images\07831a44-f9f9-4645-ba64-34ae4e755daf.jpeg
+wwwroot\Images\114320.jpg
+wwwroot\Images\1c1a31cd-5766-4eb4-96c9-5890b02e1da4.png
+wwwroot\Images\2490133d-0c29-40d5-b0a9-39d3ab0c611d.jpg
+wwwroot\Images\577fa144-8e53-42a1-bd35-dc0ccc0248a5.jpg
+wwwroot\Images\6e77ed8c-77b6-445b-bee7-7f683339e347.jpg
+wwwroot\Images\8e5b36be-47b0-464f-b2f0-e5455d290e1b.jpg
+wwwroot\Images\925bc0f0-f576-4e22-b146-d178af358df7.jpg
+wwwroot\Images\9f9532f7-e7b0-44d0-a687-e0ae9f2696fa.jpg
+wwwroot\Images\a16e0bf5-228f-4721-b698-0010158971b0.jpg
+wwwroot\Images\armchair.jpg
+wwwroot\Images\Bkash.jpg
+wwwroot\Images\Bottle.jpg
+wwwroot\Images\Casa-Padrino-Luxus.jpeg
+wwwroot\Images\close-up-delicious-.jpg
+wwwroot\Images\crispy-fried.jpg
+wwwroot\Images\Crypto.jpg
+wwwroot\Images\de464fdd-783e-4d26-8c13-e0d087234613.jpg
+wwwroot\Images\fast-food.png
+wwwroot\Images\FastFood2.jpg
+wwwroot\Images\Frencfry.jpg
+wwwroot\Images\FurnitureSofa.jpg
+wwwroot\Images\images.jpeg
+wwwroot\Images\imgbin-online-shopping.jpg
+wwwroot\Images\intro-1673019749.jpg
+wwwroot\Images\IPhone.png
+wwwroot\Images\Iron1.jpg
+wwwroot\Images\Josthi.jpg
+wwwroot\Images\ludus.jpg
+wwwroot\Images\Luxury-Bedroom-Furniture-Set.jpg
+wwwroot\Images\mastercard_PNG23.png
+wwwroot\Images\Modhu.jpg
+wwwroot\Images\no-symbol.jpg
+wwwroot\Images\Nokia.jpg
+wwwroot\Images\Oven.jpg
+wwwroot\Images\palog.jpg
+wwwroot\Images\Pepsi.jpg
+wwwroot\Images\phtsos.jpg
+wwwroot\Images\pitja.jpg
+wwwroot\Images\Poco.jpg
+wwwroot\Images\PRAN-Real-Potato-Chips.png
+wwwroot\Images\Prestige_Electric_Kettli.png
+wwwroot\Images\product-15-furniture.jpg
+wwwroot\Images\Samsung.jpg
+wwwroot\Images\Shirt1.jpg
+wwwroot\Images\Shirt2.jpg
+wwwroot\Images\Shirt3.jpg
+wwwroot\Images\Shirt4.jpg
+wwwroot\Images\Shirt5.jpg
+wwwroot\Images\Shirt6.jpg
+wwwroot\Images\Shoe1.jpg
+wwwroot\Images\Shoe2.jpg
+wwwroot\Images\Shoe3.jpg
+wwwroot\Images\Shoe4.jpg
+wwwroot\Images\Shoe5.jpg
+wwwroot\Images\Shoe6.jpg
+wwwroot\Images\shop_banner-removebg-preview.png
+wwwroot\Images\Sofa handcrafted-wooden.jpg
+wwwroot\Images\Swevenup.jpg
+wwwroot\Images\Tv1.jpg
+wwwroot\Images\Tv3.jpg
+wwwroot\Images\TV4.jpg
+wwwroot\Images\tv5.jpg
+wwwroot\Images\Tv6.png
+wwwroot\Images\visa.png
+wwwroot\Images\walton.jpg
+wwwroot\Images\Ximi TV .jpg
+wwwroot\Images\y4xx-listing.jpg
+wwwroot\js\site.js
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+wwwroot\lib\bootstrap\LICENSE
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\lib\jquery-validation\dist\additional-methods.js
+wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+wwwroot\lib\jquery-validation\LICENSE.md
+wwwroot\lib\jquery\dist\jquery.js
+wwwroot\lib\jquery\dist\jquery.min.js
+wwwroot\lib\jquery\dist\jquery.min.map
+wwwroot\lib\jquery\dist\jquery.slim.js
+wwwroot\lib\jquery\dist\jquery.slim.min.js
+wwwroot\lib\jquery\dist\jquery.slim.min.map
+wwwroot\lib\jquery\LICENSE.txt
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\css\site.css
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\favicon.ico
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\js\site.js
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\jquery-validation\dist\additional-methods.js
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\jquery-validation\LICENSE.md
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\jquery\dist\jquery.js
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\jquery\dist\jquery.min.js
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\jquery\dist\jquery.min.map
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\jquery\dist\jquery.slim.js
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\jquery\dist\jquery.slim.min.js
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\jquery\dist\jquery.slim.min.map
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\lib\jquery\LICENSE.txt
+D:\ASP.NET Core\Project\Project\Final Project\CardCore\CardCore\wwwroot\css\bootstrap.min.css

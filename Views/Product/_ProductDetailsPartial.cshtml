@@ -1,0 +1,97 @@
+﻿@model CardCore.Models.Product
+@using System.Globalization
+
+@* <div class="container-fluid p-3"> *@
+<div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="row">
+
+        <div class="col-md-4 text-center border-end">
+            @* <div class="col-md-5 text-center p-3 border-end"> *@
+            <div class="row g-0">
+                @if (!string.IsNullOrEmpty(Model.Image))
+                {
+                        <img src="~/Images/@Model.Image" class="img-fluid rounded shadow-sm" alt="@Model.ProductName" />
+
+                }
+                else
+                {
+                    <img src="~/Images/114320.jpg"
+                                class="img-fluid rounded shadow-sm"
+                                style="width: 100%; height: 300px; max-width: 300px; object-fit: cover;"
+                                alt="No Image" />
+                }
+            <h4 class="text-primary fw-bold mt-2">@Model.ProductName</h4>
+            <p class="text-muted mb-0">@Model.CompanyName</p>
+            <span class="badge bg-secondary p-2 mt-2">@Model.Genre?.GenreName</span>
+            </div>
+        </div>
+
+        <div class="col-md-8 text-start ps-4">
+            <h5 class="mb-3 border-bottom pb-2 text-dark">✨ Key Details</h5>
+            <ul class="list-unstyled detail-list">
+                <li>
+                    <strong>💸 Price:</strong>
+                    <span class="fw-bold fs-5 text-danger">
+                        @Model.Price.ToString("N2", new CultureInfo("bn-BD")) <b class="fs-4">৳</b>
+                    </span>
+                </li>
+                <li>
+                    <strong>📦 In Stock:</strong>
+                    <span class="fw-bold @(Model.Stock?.Quantity > 0 ? "text-success" : "text-warning")">
+                        @(Model.Stock?.Quantity ?? 0) units
+                    </span>
+                </li>
+                <li>
+                    <strong>📅 Release Date:</strong>
+                    @Model.ReleaseDate.ToShortDateString()
+                </li>
+                <li>
+                    <strong>🏷️ Sale Status:</strong>
+                    @if (Model.OnSale)
+                    {
+                        <span class="badge bg-danger py-1 px-2">ON SALE!</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-success py-1 px-2">Regular</span>
+                    }
+                </li>
+            </ul>
+
+            @if (Model.ProductInformations != null && Model.ProductInformations.Any())
+            {
+                <h6 class="mt-4 mb-2 text-info border-bottom pb-1">⚙️ Technical Specifications:</h6>
+                <div class="table-responsive">
+                    <table class="table table-sm table-striped table-borderless small mb-0">
+                        <thead class="table-info">
+                            <tr>
+                                <th style="width:65%;">Description</th>
+                                <th style="width:35%;">Made In</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var detail in Model.ProductInformations)
+                            {
+                                <tr>
+                                    <td>@Html.Raw(detail.Description?.Replace("\n", "<br />"))</td>
+                                    <td>@detail.MadeIn</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+
+
+<style>
+    .detail-list li {
+        margin-bottom: 8px;
+    }
+</style>
+
+
+

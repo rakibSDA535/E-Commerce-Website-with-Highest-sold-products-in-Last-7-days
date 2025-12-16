@@ -1,0 +1,90 @@
+﻿body[b-ypk33khwsf] {
+    padding: 0;
+    margin: 0;
+}
+
+*[b-ypk33khwsf] {
+    scrollbar-width: thin;
+    scrollbar-color: #486888 #f1f1f1;
+}
+
+    *[b-ypk33khwsf]::-webkit-scrollbar {
+        width: 12px; /* Width of the scrollbar */
+    }
+
+    *[b-ypk33khwsf]::-webkit-scrollbar-track {
+        background: #f1f1f1; /* Color of the track */
+    }
+
+    *[b-ypk33khwsf]::-webkit-scrollbar-thumb {
+        background: #486888; /* Created By Rakib In 2025 */
+        border-radius: 20px; /* Rounded corners of the thumb */
+    }
+
+        *[b-ypk33khwsf]::-webkit-scrollbar-thumb:hover {
+            background: #486888; /* Color of the thumb on hover */
+        }
+
+.main-contaier[b-ypk33khwsf] {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.sidenav[b-ypk33khwsf] {
+    height: 100%;
+    width: 250px;
+    background-color: #2c3e50;
+    padding-top: 15px;
+}
+
+.navigation-link[b-ypk33khwsf] {
+    text-decoration: none;
+    font-size: 17px;
+    color: #ffffff;
+    display: block;
+}
+
+.sidenav a:hover[b-ypk33khwsf] {
+    background-color: #476584;
+    color: #ffffff !important;
+}
+
+.sidenav a[b-ypk33khwsf] {
+    padding: 10px 15px;
+}
+
+.right-panel[b-ypk33khwsf] {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.nav-bar[b-ypk33khwsf] {
+    background-color: #486888;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-actions[b-ypk33khwsf] {
+    display: flex;
+    gap: 5px;
+}
+
+    .nav-actions button[b-ypk33khwsf] {
+        border: none;
+        background: none;
+    }
+
+        .nav-actions a:hover[b-ypk33khwsf],
+        .nav-actions button:hover[b-ypk33khwsf] {
+            color: rgb(241, 241, 241);
+        }
+
+.content[b-ypk33khwsf] {
+    padding: 20px;
+}

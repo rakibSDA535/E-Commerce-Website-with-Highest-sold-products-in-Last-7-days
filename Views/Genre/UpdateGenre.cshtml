@@ -1,0 +1,48 @@
+﻿@model GenreDTO
+@{
+    Layout = "_AdminLayout";
+    ViewData["Title"] = "Update Category";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-6 col-lg-5"> 
+            
+            <div class="card shadow-lg border-0 rounded-3">
+                
+                <div class="card-header bg-primary text-white text-center p-3">
+                    <h2 class="mb-0 fs-4">Add New Category</h2>
+                </div>
+                
+                <div class="card-body p-4">
+                    
+                    <form asp-action="UpdateGenre" method="post">
+                        
+                        <input type="hidden" asp-for="Id" />
+                        
+                        <div class="mb-4 d-flex justify-content-end">
+                            <a asp-action="Index" asp-controller="Genre" class="btn btn-warning">
+                                <i class="bi bi-arrow-left-circle"></i> Go to List
+                            </a>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="GenreName" class="form-label fw-bold">Category Name</label>
+                            <input type="text" class="form-control form-control-lg" asp-for="GenreName" placeholder="বর্তমান নামটি পরিবর্তন করুন" />
+                            <span asp-validation-for="GenreName" class="text-danger mt-1 d-block"></span>
+                        </div>
+                        
+                        <div class="d-grid mt-4">
+                            <button type="submit" class="btn btn-success btn-lg">
+                                <i class="bi bi-arrow-repeat"></i> ADD UPDATE
+                            </button>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,159 @@
+﻿@* @{
+    ViewData["Title"] = "Dashboard";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Welcome to Dashboard</h1> *@
+
+
+@{
+    ViewData["Title"] = "Dashboard";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row pt-4 pb-2">
+    <div class="col-12">
+        <h2 class="text-primary border-bottom border-primary pb-2">Dashboard (Administration)</h2>
+        <p class="text-muted">Get a quick summary of your business performance.</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4 mb-4">
+        <div class="card shadow-sm border-start border-primary border-5 h-100 py-2">
+            <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                        <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                            Total Orders
+                        </div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">1250</div>
+                    </div>
+                    <div class="col-auto">
+                        <i class="bi bi-receipt fa-2x text-gray-300"></i>
+                    </div>
+                </div>
+                <a href="/AdminOperations/AllOrders" class="stretched-link small text-primary text-decoration-none">View Order Details</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+        <div class="card shadow-sm border-start border-success border-5 h-100 py-2">
+            <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                        <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                            Total Revenue
+                        </div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">$ 75,000.00</div>
+                    </div>
+                    <div class="col-auto">
+                        <i class="bi bi-currency-dollar fa-2x text-gray-300"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+        <div class="card shadow-sm border-start border-info border-5 h-100 py-2">
+            <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                        <div class="text-xs font-weight-bold text-info text-uppercase mb-1">
+                            Total Products
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <i class="bi bi-box fa-2x text-gray-300"></i>
+                    </div>
+                </div>
+                <a href="/Product/Index" class="stretched-link small text-info text-decoration-none">View Product List</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-7 mb-4">
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">Recent Orders</h6>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>Order ID</th>
+                                <th>Customer</th>
+                                <th>Total Amount</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>#1005</td>
+                                <td>Rahim Khan</td>
+                                <td>$ 550</td>
+                                <td><span class="badge bg-warning text-dark">Processing</span></td>
+                            </tr>
+                            <tr>
+                                <td>#1004</td>
+                                <td>Ayesha Begum</td>
+                                <td>$ 1,200</td>
+                                <td><span class="badge bg-success">Delivered</span></td>
+                            </tr>
+                            <tr>
+                                <td>#1003</td>
+                                <td>Karim Chowdhury</td>
+                                <td>$ 3,450</td>
+                                <td><span class="badge bg-danger">Cancelled</span></td>
+                            </tr>
+                            <tr>
+                                <td>#1002</td>
+                                <td>Junaid Hassan</td>
+                                <td>$ 890</td>
+                                <td><span class="badge bg-primary">Shipped</span></td>
+                            </tr>
+                            <tr>
+                                <td>#1001</td>
+                                <td>Shamim Hossain</td>
+                                <td>$ 2,150</td>
+                                <td><span class="badge bg-success">Delivered</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-5 mb-4">
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-success">Top Selling Products</h6>
+            </div>
+            <div class="card-body">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        **Napa 10**
+                        <span class="badge bg-success rounded-pill">3200 Sold</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        **Cloths**
+                        <span class="badge bg-primary rounded-pill">1850 Sold</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        **Jhandu Bum**
+                        <span class="badge bg-info rounded-pill">1520 Sold</span>
+                    </li>
+                </ul>
+                <div class="text-center mt-3">
+                    <a href="/Reports/TopFiveSellingProducts" class="btn btn-sm btn-outline-success">View Full Report</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

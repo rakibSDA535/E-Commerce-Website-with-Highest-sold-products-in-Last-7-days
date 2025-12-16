@@ -1,0 +1,46 @@
+﻿@model GenreDTO
+@{
+    Layout = "_AdminLayout";
+    ViewData["Title"] = "Add New Category";
+}
+
+<div class="container mt-4 mb-5 p-2">
+    <div class="row justify-content-center">
+        <div class="col-12 col-sm-10 col-md-8 col-lg-6">
+
+            <div class="card shadow-lg border-0">
+
+                <div class="card-header bg-primary text-white text-center rounded-top p-3">
+                    <h2 class="mb-0 fs-4">Add New Category</h2>
+                </div>
+
+                <div class="card-body p-4">
+
+                    <form asp-action="AddGenre" method="post">
+
+                        <div class="mb-3 d-flex justify-content-end">
+                            <a asp-action="Index" asp-controller="Genre" class="btn btn-warning">
+                                <i class="bi bi-arrow-left-circle"></i> Go to List
+                            </a>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="GenreName" class="form-label fw-bold">Category Name</label>
+                            <input type="text" class="form-control" asp-for="GenreName" placeholder="Such as leather,car,Plastic etc" />
+                            <span asp-validation-for="GenreName" class="text-danger mt-1 d-block"></span>
+                        </div>
+
+                        <div class="d-grid mt-4">
+                            <button type="submit" class="btn btn-success btn-lg">
+                                <i class="bi bi-plus-circle"></i> ADD
+                            </button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+

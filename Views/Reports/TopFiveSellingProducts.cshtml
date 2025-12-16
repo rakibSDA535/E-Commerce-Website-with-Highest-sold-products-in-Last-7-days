@@ -1,0 +1,72 @@
+﻿@using CardCore.Models.DTOs
+@model TopNSoldProductsVm
+
+<h3 class="text-white border-bottom pb-2 mb-4">Top Selling Products</h3>
+
+@if (Model != null)
+{
+    <div class="card shadow-sm p-3 mb-5 bg-white rounded">
+
+        <form class="d-flex mb-4 p-2 border-bottom filter-form" asp-action="TopFiveSellingProducts" method="get">
+            <input type="date" class="form-control me-2" name="sDate"
+                   value="@Model.StartDate.ToString("yyyy-MM-dd")" style="max-width: 200px;" />
+            <input type="date" class="form-control me-2" name="eDate"
+                   value="@Model.EndDate.ToString("yyyy-MM-dd")" style="max-width: 200px;" />
+            <button class="btn btn-primary me-2">Filter</button>
+            <a class="btn btn-secondary" href="/Reports/TopFiveSellingProducts">Clear</a>
+        </form>
+
+        <h4 class="text-secondary fs-5 mb-3">
+            <b class="text-dark">Showing Results from @Model.StartDate.ToString("dd-MMM-yyyy") to @Model.EndDate.ToString("dd-MMM-yyyy")</b>
+        </h4>
+
+        @if (Model.TopNSoldProducts.Count() == 0)
+        {
+            <div class="alert alert-warning my-3 fw-bold" role="alert">
+                No records found for the selected period.
+            </div>
+        }
+        else
+        {
+            <div class="table-responsive">
+                <table class="table table-striped table-hover align-middle">
+
+                    <thead class="table-primary text-white">
+                        <tr>
+                            <th class="col-1">Image</th>
+                            <th class="col-4">Product Name</th>
+                            <th class="col-3">Company Name</th>
+                            <th class="col-2 text-center">Sold Units</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @foreach (var item in Model.TopNSoldProducts)
+                        {
+                            <tr>
+                                <td>
+                                    @{
+                                        var imageUrl = string.IsNullOrWhiteSpace(item.Image)
+                                        ? "/Images/114320.jpg"
+                                        : $"/Images/{item.Image}";
+                                    }
+                                    <img src="@imageUrl" class="img-fluid rounded border p-1" style="width: 60px; height: 60px; object-fit: cover;" alt="product image" />
+                                </td>
+
+                                <td class="fw-semibold">@item.ProductName</td>
+                                <td class="text-muted">@item.CompanyName</td>
+                                <td class="text-center">
+                                    <span class="badge bg-danger fs-6 p-2">@item.TotalUnitSold</span>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <h4 class="alert alert-danger">Something is wrong</h4>
+}

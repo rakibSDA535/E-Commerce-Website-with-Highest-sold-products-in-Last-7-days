@@ -1,0 +1,241 @@
+﻿@model ProductDTO
+
+@{
+    Layout = "_AdminLayout";
+}
+
+<div class="container mt-4">
+    <div class="card shadow-sm border-0">
+        <div class="card-body">
+            <h2 class="text-center mb-4 text-primary fw-bold">Add New Product</h2>
+
+            <a asp-action="Index" asp-controller="Product" class="btn btn-secondary mb-3">
+                <i class="bi bi-arrow-left-circle"></i> Back
+            </a>
+
+            <form asp-action="AddProduct" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="Id" />
+
+                <div class="mb-3">
+                    <label asp-for="ProductName" class="form-label fw-semibold">Product Name*</label>
+                    <input type="text" class="form-control" asp-for="ProductName" />
+                    <span asp-validation-for="ProductName" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="CompanyName" class="form-label fw-semibold">Company*</label>
+                    <input type="text" class="form-control" asp-for="CompanyName" />
+                    <span asp-validation-for="CompanyName" class="text-danger"></span>
+                </div>
+
+                @* <div class="mb-3">
+                    <label asp-for="GenreId" class="form-label fw-semibold">Category*</label>
+                    <select class="form-select" asp-for="GenreId" asp-items="Model.GenreList">
+                        <option value="">-- Select Category --</option>
+                    </select>
+                    <span asp-validation-for="GenreId" class="text-danger"></span>
+                </div> *@
+
+                @*On Feield Add Category/Genre With Ajax*@
+                <div class="form-group mb-3">
+                    <label asp-for="GenreId" class="form-label"></label>
+                    <div class="input-group">
+                        <select asp-for="GenreId" class="form-control" asp-items="@Model.GenreList">
+                            <option value="">-- Select Category --</option>
+                        </select>
+                        <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#addGenreModal">➕ Add Category</button>
+                    </div>
+                    <span asp-validation-for="GenreId" class="text-danger"></span>
+                </div>
+                <!-- ✅ Correct Modal -->
+                <div class="modal fade" id="addGenreModal" tabindex="-1" aria-labelledby="addGenreModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="addGenreModalLabel">Add New Genre</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="form-group">
+                                    <label for="newGenreName">Category Name</label>
+                                    <input type="text" id="newGenreName" class="form-control" placeholder="Enter Category Name" />
+                                    <small id="genreMessage" class="text-danger"></small>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" id="saveNewGenre" class="btn btn-primary">Save</button>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <label asp-for="Price" class="form-label fw-semibold">Price (৳)*</label>
+                        <input type="number" class="form-control" asp-for="Price" />
+                        <span asp-validation-for="Price" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-md-4 mb-3">
+                        <label asp-for="ReleaseDate" class="form-label fw-semibold">Release Date*</label>
+                        <input type="date" class="form-control" asp-for="ReleaseDate" />
+                        <span asp-validation-for="ReleaseDate" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-md-4 d-flex align-items-center">
+                        <div class="form-check mt-4">
+                            <input class="form-check-input" type="checkbox" asp-for="OnSale" />
+                            <label class="form-check-label" asp-for="OnSale">On Sale</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="ImageFile" class="form-label fw-semibold">Upload Image</label>
+                    <input type="file" class="form-control" asp-for="ImageFile" />
+                    <span asp-validation-for="ImageFile" class="text-danger"></span>
+                </div>
+                <h4>Stock Information</h4>
+                <div class="my-2">
+                    @*stock*@
+                    <label asp-for="Stock.Quantity">Stock Quantity*</label>
+                    <input type="number" class="form-control" asp-for="Stock.Quantity" />
+                    <span asp-validation-for="Stock.Quantity" class="text-danger"></span>
+                </div>
+
+                <hr />
+                <h5 class="fw-bold text-secondary mb-3">Product Information (Details)</h5>
+
+                <div class="table-responsive">
+                    <table class="table table-bordered table-sm align-middle" id="productInfoTable">
+                        <thead class="table-light text-center">
+                            <tr>
+                                <th>Description</th>
+                                <th>Made In</th>
+                                <th style="width: 80px;">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for (int i = 0; i < Model.ProductInformations.Count; i++)
+                            {
+                                <tr>
+                                    <td>
+                                        <input name="ProductInformations[@i].Id" type="hidden" value="@Model.ProductInformations[i].Id" />
+                                        <textarea name="ProductInformations[@i].Description" class="form-control">@Model.ProductInformations[i].Description</textarea>
+
+                                    </td>
+                                    <td>
+                                        <input name="ProductInformations[@i].MadeIn" class="form-control" value="@Model.ProductInformations[i].MadeIn" />
+                                    </td>
+                                    <td class="text-center">
+                                        <button type="button" class="btn btn-danger btn-sm remove-info">
+                                            <i class="bi bi-trash"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+                <button type="button" id="addInfo" class="btn btn-outline-primary mb-3">
+                    <i class="bi bi-plus-circle"></i> Add More Info
+                </button>
+
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-success btn-lg">
+                        <i class="bi bi-check-circle"></i> Save Product
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Hidden Template -->
+<table style="display:none">
+    <tbody id="infoRowTemplate">
+        <tr>
+            <td>
+                <input name="ProductInformations[__idx__].Id" type="hidden" value="0" />
+                <textarea name="ProductInformations[__idx__].Description" class="form-control"></textarea>
+            </td>
+            <td><input name="ProductInformations[__idx__].MadeIn" class="form-control" /></td>
+            <td class="text-center">
+                <button type="button" class="btn btn-danger btn-sm remove-info">
+                    <i class="bi bi-trash"></i>
+                </button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script>
+        (function () {
+            function reindex() {
+                $('#productInfoTable tbody tr').each(function (i, tr) {
+                    $(tr).find('input, select, textarea').each(function () {
+                        var name = $(this).attr('name');
+                        if (!name) return;
+                        var newName = name.replace(/ProductInformations\[\d+\]/, 'ProductInformations[' + i + ']');
+                        $(this).attr('name', newName);
+                    });
+                });
+            }
+            $('#addInfo').click(function () {
+                var index = $('#productInfoTable tbody tr').length;
+                var template = $('#infoRowTemplate').html().replace(/__idx__/g, index);
+                $('#productInfoTable tbody').append(template);
+                reindex();
+            });
+            $('#productInfoTable').on('click', '.remove-info', function () {
+                $(this).closest('tr').remove();
+                reindex();
+            });
+
+            reindex();
+        })();
+
+
+        //On Feield Add Category/Genre With Java Script
+        $(document).ready(function () {
+            $('#saveNewGenre').click(function () {
+                var genreName = $('#newGenreName').val().trim();
+                $('#genreMessage').text('');
+
+                if (genreName === '') {
+                    $('#genreMessage').text('Category name cannot be empty.');
+                    return;
+                }
+                $.ajax({
+                    url: '/Genre/CreateGenreAjax',
+                    type: 'POST',
+                    data: { genreName: genreName },
+                    success: function (response) {
+                        if (response.success) {
+                            // ✅ Add new genre to dropdown
+                            $('select[name="GenreId"]').append(
+                                $('<option>', { value: response.id, text: response.name, selected: true })
+                            );
+
+                            // Close modal
+                            $('#addGenreModal').modal('hide');
+                            $('#newGenreName').val('');
+                            $('#genreMessage').text('');
+                        } else {
+                            $('#genreMessage').text(response.message);
+                        }
+                    },
+                    error: function () {
+                        $('#genreMessage').text('An error occurred while saving category.');
+                    }
+                });
+            });
+        });
+    </script>
+}

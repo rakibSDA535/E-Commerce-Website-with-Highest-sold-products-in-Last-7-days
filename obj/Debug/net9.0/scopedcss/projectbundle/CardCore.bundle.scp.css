@@ -1,0 +1,149 @@
+/* /Views/Home/Index.cshtml.rz.scp.css */
+/*namespace CardCore.Views.Home
+{
+    public class Index
+    {
+
+    }
+}
+*/
+/* /Views/Shared/_AdminLayout.cshtml.rz.scp.css */
+body[b-ypk33khwsf] {
+    padding: 0;
+    margin: 0;
+}
+
+*[b-ypk33khwsf] {
+    scrollbar-width: thin;
+    scrollbar-color: #486888 #f1f1f1;
+}
+
+    *[b-ypk33khwsf]::-webkit-scrollbar {
+        width: 12px; /* Width of the scrollbar */
+    }
+
+    *[b-ypk33khwsf]::-webkit-scrollbar-track {
+        background: #f1f1f1; /* Color of the track */
+    }
+
+    *[b-ypk33khwsf]::-webkit-scrollbar-thumb {
+        background: #486888; /* Created By Rakib In 2025 */
+        border-radius: 20px; /* Rounded corners of the thumb */
+    }
+
+        *[b-ypk33khwsf]::-webkit-scrollbar-thumb:hover {
+            background: #486888; /* Color of the thumb on hover */
+        }
+
+.main-contaier[b-ypk33khwsf] {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.sidenav[b-ypk33khwsf] {
+    height: 100%;
+    width: 250px;
+    background-color: #2c3e50;
+    padding-top: 15px;
+}
+
+.navigation-link[b-ypk33khwsf] {
+    text-decoration: none;
+    font-size: 17px;
+    color: #ffffff;
+    display: block;
+}
+
+.sidenav a:hover[b-ypk33khwsf] {
+    background-color: #476584;
+    color: #ffffff !important;
+}
+
+.sidenav a[b-ypk33khwsf] {
+    padding: 10px 15px;
+}
+
+.right-panel[b-ypk33khwsf] {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.nav-bar[b-ypk33khwsf] {
+    background-color: #486888;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-actions[b-ypk33khwsf] {
+    display: flex;
+    gap: 5px;
+}
+
+    .nav-actions button[b-ypk33khwsf] {
+        border: none;
+        background: none;
+    }
+
+        .nav-actions a:hover[b-ypk33khwsf],
+        .nav-actions button:hover[b-ypk33khwsf] {
+            color: rgb(241, 241, 241);
+        }
+
+.content[b-ypk33khwsf] {
+    padding: 20px;
+}
+/* /Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-2minh0odx4] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-2minh0odx4] {
+  color: #0077cc;
+}
+
+.btn-primary[b-2minh0odx4] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-2minh0odx4], .nav-pills .show > .nav-link[b-2minh0odx4] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-2minh0odx4] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-2minh0odx4] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-2minh0odx4] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-2minh0odx4] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-2minh0odx4] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}

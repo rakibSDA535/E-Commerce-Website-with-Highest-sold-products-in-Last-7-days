@@ -1,0 +1,570 @@
+﻿@model IEnumerable<Product>
+@using System.Globalization
+
+
+@{
+    Layout = "_AdminLayout";
+    ViewData["Title"] = "Product List";
+    string searchQuery = ViewBag.SearchQuery;
+    int currentPage = ViewBag.CurrentPage;
+    int totalPages = ViewBag.TotalPages;
+    int pageSize = ViewBag.PageSize;
+    int totalItems = ViewBag.TotalItems;
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="mb-0 text-primary"><i class="bi bi-box-seam-fill me-2"></i> All Products</h2>
+    </div>
+
+    <div class="row mb-4 p-3 bg-light rounded-3 shadow-sm align-items-center">
+
+        <div class="col-lg-3 col-md-12 mb-2 mb-lg-0">
+            <a asp-action="AddProduct" asp-controller="Product" class="btn btn-success w-100 fw-bold">
+                <i class="bi bi-plus-circle-fill me-1"></i> Add New Product
+            </a>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-2 mb-lg-0">
+            <form asp-action="Index" method="get" class="d-flex align-items-center">
+                <label for="pageSize" class="me-2 text-nowrap fw-bold text-secondary">Show:</label>
+                <select name="pageSize" class="form-select form-select-sm" onchange="this.form.submit()">
+                    <option value="5" selected="@(pageSize == 5)">5</option>
+                    <option value="10" selected="@(pageSize == 10)">10</option>
+                    <option value="15" selected="@(pageSize == 15)">15</option>
+                    <option value="20" selected="@(pageSize == 20)">20</option>
+                    <option value="@totalItems" selected="@(pageSize == totalItems)">All (@totalItems)</option>
+                </select>
+                <input type="hidden" name="searchQuery" value="@searchQuery" />
+                <input type="hidden" name="page" value="1" />
+            </form>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <form asp-action="Index" method="get" class="d-flex">
+                <input type="text" name="searchQuery" class="form-control me-2" placeholder="Search by Product or Company name" value="@searchQuery" />
+                <button type="submit" class="btn btn-primary text-nowrap"><i class="bi bi-search"></i></button>
+                <a asp-action="Index" class="btn btn-outline-secondary ms-1 text-nowrap"><i class="bi bi-arrow-clockwise"></i> Clear</a>
+                <input type="hidden" name="pageSize" value="@pageSize" />
+            </form>
+        </div>
+    </div>
+
+    <div class="card shadow-lg border-0 rounded-4">
+        @if (Model?.Count() > 0)
+        {
+            <div class="table-responsive">
+                <table class="table table-hover align-middle mb-0">
+                    <thead class="table-dark">
+                        <tr>
+                            <th style="width: 8%;">Image</th>
+                            <th style="width: 25%;">Product Name</th>
+                            <th style="width: 15%;">Company</th>
+                            <th style="width: 10%;">Category</th>
+                            <th style="width: 10%;">Stock</th>
+                            <th style="width: 10%;">Date</th>
+                            <th style="width: 10%;">Sale Status</th>
+                            <th style="width: 10%;">Price (৳)</th>
+                            <th style="width: 12%;" class="text-center">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{
+                            int productIndex = 0;
+                        }
+                        @foreach (var product in Model)
+                        {
+                            <tr class="product-row">
+                                @*Normal form of adding pic*@
+                                @* <td>
+                                    @{
+                                        string imageUrl = string.IsNullOrWhiteSpace(product.Image) ? "/Images/114320.jpg" : $"/Images/{product.Image}";
+                                    }
+                                    <img src="@imageUrl" class="img-thumbnail rounded" style="width:90px; height:90px; object-fit: cover;" alt="product image" />
+                                </td> *@
+                                @*Normal form of adding pic*@
+                                @*Click on pic for details(S1)*@
+                                @* <td class="text-center">
+                                    @{
+                                        string imageUrl = string.IsNullOrWhiteSpace(product.Image) ? "/Images/114320.jpg" : $"/Images/{product.Image}";
+                                    }
+                                    @if (!string.IsNullOrEmpty(product.Image))
+                                    {
+                                        <a asp-controller="Product" asp-action="ProductDetails" asp-route-id="@product.Id" type="button" class="btn btn-sm btn-details-custom me-1 mb-1">
+                                            <img src="@imageUrl"
+                                                 alt="Product Image"
+                                                 class="img-thumbnail rounded shadow-sm hover-zoom"
+                                                 style="width: 90px; height: 90px;object-fit: cover;" />
+                                        </a>
+                                    }
+                                    else
+                                    {
+                                        <img src="~/Images/114320.jpg"
+                                             alt="Default Product Image"
+                                             class="img-thumbnail rounded"
+                                             style="width: 90px; height: 90px; object-fit: cover;" />
+                                    }
+                                </td> *@
+                                @*Click on pic for details(S1)*@
+
+                                @*Popup Details click on picture(S2)*@
+                                @*tar jonno 1.index a(foreach er vitor <td>Image code<td/> => <table/> er baire (Popup Box) =>Ajax @section Scripts tar vitor <style>)
+                                            2.Controller a(Action method(GetProductDetailsPartial))
+                                            3.Views/Product/a(_ProductDetailsPartial.cshtml)*@
+
+                                <td class="text-center">
+                                    @{
+                                        string imageUrl = string.IsNullOrWhiteSpace(product.Image) ? "/Images/114320.jpg" : $"/Images/{product.Image}";
+                                    }
+
+                                    @if (!string.IsNullOrWhiteSpace(product.Image))
+                                    {
+                                        <img src="~/Images/@product.Image"
+                                             alt="Product Image"
+                                             class="img-thumbnail rounded shadow-sm hover-zoom"
+                                             style="width: 90px; height: 90px; object-fit: cover; cursor: pointer;"
+                                             data-id="@product.Id"
+                                             data-bs-toggle="modal"
+                                             data-bs-target="#productDetailModal"
+                                             onclick="loadProductDetails(@product.Id)" />
+                                    }
+                                    else
+                                    {
+                                        <img src="~/Images/114320.jpg"
+                                             alt="Default Product Image"
+                                             class="img-thumbnail rounded"
+                                             style="width: 90px; height: 90px; object-fit: cover;" />
+                                    }
+                                </td>
+                                @*Popup Details click on picture(S2)*@
+
+
+
+                                <td class="fw-bold text-dark">@product.ProductName</td>
+
+                                <td>@product.CompanyName</td>
+
+                                <td><span class="badge bg-secondary">@product.Genre.GenreName</span></td>
+
+                                <td>@(product.Stock?.Quantity ?? 0)</td>
+
+                                <td>@product.ReleaseDate.ToShortDateString()</td>
+
+                                <td>
+                                    @if (product.OnSale)
+                                    {
+                                        <span class="badge py-2 px-3 bg-danger text-white">ON SALE!</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge py-2 px-3 bg-success">Regular</span>
+                                    }
+                                </td>
+
+                                <td class="fw-bold">@product.Price.ToString("N2", new CultureInfo("bn-BD")) <b class="fs-4">৳</b></td>
+
+                                <td class="text-center">
+                                    <div class="btn-group" role="group" aria-label="Product Actions">
+                                        <a asp-action="UpdateProduct" asp-controller="Product" asp-route-id="@product.Id" class="btn btn-sm btn-info" title="Edit Product"><i class="bi bi-pencil-square"></i></a>
+
+                                        @if (product.ProductInformations != null && product.ProductInformations.Any())
+                                        {
+                                            <button class="btn btn-sm btn-outline-dark mx-1 detail-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDetail_@productIndex" aria-expanded="false" aria-controls="collapseDetail_@productIndex" title="Toggle Details">
+                                                <i class="bi bi-caret-down-fill"></i>
+                                            </button>
+                                        }
+
+                                        <a asp-action="DeleteProduct" asp-controller="Product" asp-route-id="@product.Id" class="btn btn-sm btn-danger" onclick="return window.confirm('Are you sure you want to delete this product??')" title="Delete Product"><i class="bi bi-trash-fill"></i></a>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            @if (product.ProductInformations != null && product.ProductInformations.Any())
+                            {
+                                <tr class="table-light collapse-row">
+                                    <td colspan="8" class="p-0 border-0">
+                                        <div class="collapse" id="collapseDetail_@productIndex">
+                                            <div class="p-3 bg-light border-start border-5 border-info ms-3 me-3 my-2 rounded">
+                                                <h6 class="mb-2 text-info fw-bold">Additional Specifications:</h6>
+                                                <table class="table table-sm table-borderless table-detail mb-0">
+                                                    <thead>
+                                                        <tr class="text-muted small">
+                                                            <th style="width:50%">Description</th>
+                                                            <th style="width:50%">Made In</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        @foreach (var detail in product.ProductInformations)
+                                                        {
+                                                            <tr>
+                                                                @* <td class="small">@detail.Description</td> *@
+                                                                <td class="small">@Html.Raw(detail.Description?.Replace("\n", "<br />"))</td>
+                                                                <td class="small">@detail.MadeIn</td>
+                                                            </tr>
+                                                        }
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                            productIndex++;
+                        }
+                    </tbody>
+                </table>
+                <!-- Product Details popup Modal(S2) -->
+                <div class="modal fade" id="productDetailModal" tabindex="-1" aria-labelledby="productDetailModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                        <div class="modal-content shadow-lg border-0 rounded-3">
+                            <div class="modal-header bg-info text-white">
+                                <h5 class="modal-title" id="productDetailModalLabel">Product Details</h5>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center" id="productDetailBody">
+                                <div class="spinner-border text-info" role="status">
+                                    <span class="visually-hidden">Loading...</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            @if (totalPages > 1)
+            {
+                <div class="card-footer bg-white d-flex justify-content-between align-items-center p-3">
+                    <p class="mb-0 text-dark fs-6">
+                        Showing page
+                        <strong class="text-primary">@currentPage</strong>
+                        of
+                        <strong class="text-primary">@totalPages</strong>.
+                        Total items:
+                        <span class="badge bg-info text-dark ms-1">@totalItems</span>
+                    </p>
+
+                    <nav aria-label="Page navigation">
+                        <ul class="pagination pagination-sm mb-0">
+                            <li class="page-item @(currentPage <= 1 ? "disabled" : "")">
+                                <a class="page-link" asp-action="Index" asp-route-searchQuery="@searchQuery" asp-route-page="1" asp-route-pageSize="@pageSize"><i class="bi bi-chevron-bar-left"></i></a>
+                            </li>
+                            <li class="page-item @(currentPage <= 1 ? "disabled" : "")">
+                                <a class="page-link" asp-action="Index" asp-route-searchQuery="@searchQuery" asp-route-page="@(currentPage - 1)" asp-route-pageSize="@pageSize"><i class="bi bi-chevron-left"></i></a>
+                            </li>
+                            @{
+                                int startPage = Math.Max(1, currentPage - 2);
+                                int endPage = Math.Min(totalPages, currentPage + 2);
+                            }
+                            @for (int i = startPage; i <= endPage; i++)
+                            {
+                                <li class="page-item @(i == currentPage ? "active" : "")">
+                                    <a class="page-link" asp-action="Index" asp-route-searchQuery="@searchQuery" asp-route-page="@i" asp-route-pageSize="@pageSize">@i</a>
+                                </li>
+                            }
+
+                            <li class="page-item @(currentPage >= totalPages ? "disabled" : "")">
+                                <a class="page-link" asp-action="Index" asp-route-searchQuery="@searchQuery" asp-route-page="@(currentPage + 1)" asp-route-pageSize="@pageSize"><i class="bi bi-chevron-right"></i></a>
+                            </li>
+                            <li class="page-item @(currentPage >= totalPages ? "disabled" : "")">
+                                <a class="page-link" asp-action="Index" asp-route-searchQuery="@searchQuery" asp-route-page="@totalPages" asp-route-pageSize="@pageSize"><i class="bi bi-chevron-bar-right"></i></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            }
+        }
+        else
+        {
+            <div class="card-body">
+                <div class="alert alert-info" role="alert">
+                    <h4 class="alert-heading">No Records Found!</h4>
+                    <p>No products matched your search query. Please search by another name or <a asp-action="Index" class="alert-link">Clear</a> Click the button.</p>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        //========================Drop Down Detail view=================================
+        document.addEventListener('DOMContentLoaded', function() {
+            var detailToggles = document.querySelectorAll('.detail-toggle');
+            detailToggles.forEach(function(button) {
+                var collapseElement = document.getElementById(button.getAttribute('data-bs-target').substring(1));
+                collapseElement.addEventListener('show.bs.collapse', function () {
+                    button.querySelector('i').classList.remove('bi-caret-down-fill');
+                    button.querySelector('i').classList.add('bi-caret-up-fill');
+                });
+                collapseElement.addEventListener('hide.bs.collapse', function () {
+                    button.querySelector('i').classList.remove('bi-caret-up-fill');
+                    button.querySelector('i').classList.add('bi-caret-down-fill');
+                });
+            });
+        });
+        //===============================================================================
+        //=====================Product Details popup Modal(S2)===========================
+        function loadProductDetails(productId) {
+            // মডেলের বডি রিসেট করে লোডিং স্পিনার দেখান
+            const modalBody = document.getElementById('productDetailBody');
+            modalBody.innerHTML = '<div class="spinner-border text-info" role="status"><span class="visually-hidden">Loading...</span></div>';
+
+            // আংশিক ভিউ লোড করার জন্য AJAX কল
+            fetch(`/Product/GetProductDetailsPartial?id=${productId}`) // আপনার কন্ট্রোলার এবং অ্যাকশন পাথ অনুযায়ী এটি পরিবর্তন করুন
+            .then(response => {
+                // নিশ্চিত করুন যে স্ট্যাটাস ঠিক আছে (যেমন, 200 OK)
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                    return response.text();
+                })
+            .then(htmlContent => {
+                // সফলভাবে লোড হলে মডেলের বডিতে কন্টেন্ট দেখান
+                modalBody.innerHTML = htmlContent;
+                })
+            .catch(error => {
+                // কোনো ত্রুটি হলে ত্রুটির বার্তা দেখান
+                console.error('Error loading product details:', error);
+                modalBody.innerHTML = '<div class="alert alert-danger">পণ্য বিবরণ লোড করার সময় একটি ত্রুটি হয়েছে।</div>';
+            });
+        }
+        //===============================================================================
+    </script>
+}
+<style>
+    .table thead th {
+        vertical-align: middle;
+    }
+
+    .table tbody tr:hover {
+        background-color: #f6f9ff;
+        transition: 0.2s ease-in-out;
+    }
+
+    .btn-group .btn {
+        border-radius: 6px !important;
+    }
+
+    .alert {
+        border-radius: 12px;
+    }
+
+    .container h2 {
+        letter-spacing: 0.5px;
+    }
+    /*Click on pic(S1)*/
+    .hover-zoom {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .hover-zoom:hover {
+            transform: scale(1.08);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+    /*Click on pic*/
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@*================================prothom design================================*@
+
+
+@* @{
+    Layout = "_AdminLayout";
+    string searchQuery = ViewBag.SearchQuery;
+    int currentPage = ViewBag.CurrentPage;
+    int totalPages = ViewBag.TotalPages;
+    int pageSize = ViewBag.PageSize;
+    int totalItems = ViewBag.TotalItems;
+}
+<h2>Products</h2>
+<div class="row mb-3">
+    <div class="col-md-4">
+        <a asp-action="AddProduct" asp-controller="Product" class="btn btn-warning">➕Add More</a>
+    </div>
+
+    <div class="col-md-4 d-flex align-items-center">
+        <form asp-action="Index" method="get" class="d-flex w-100">
+            <label for="pageSize" class="me-2 mt-1 text-nowrap">Show Items:</label>
+            <select name="pageSize" class="form-select form-select-sm" onchange="this.form.submit()">
+                <option value="5" selected="@(pageSize == 5)">5</option>
+                <option value="6" selected="@(pageSize == 6)">6</option>
+                <option value="7" selected="@(pageSize == 7)">7</option>
+                <option value="8" selected="@(pageSize == 8)">8</option>
+                <option value="9" selected="@(pageSize == 9)">9</option>
+                <option value="10" selected="@(pageSize == 10)">10</option>
+                <option value="15" selected="@(pageSize == 15)">15</option>
+                <option value="20" selected="@(pageSize == 20)">20</option>
+                <option value="@totalItems" selected="@(pageSize == totalItems)">All</option>
+            </select>
+            <input type="hidden" name="searchQuery" value="@searchQuery" />
+            <input type="hidden" name="page" value="1" />
+        </form>
+    </div>
+
+    <div class="col-md-4">
+        <form asp-action="Index" method="get" class="d-flex">
+            <input type="text" name="searchQuery" class="form-control me-2" placeholder="Search by Product/Company Name" value="@searchQuery" />
+            <button type="submit" class="btn btn-secondary">Search</button>
+            <a asp-action="Index" class="btn btn-outline-secondary ms-1">Clear</a>
+            <input type="hidden" name="pageSize" value="@pageSize" />
+        </form>
+    </div>
+</div> *@
+
+@*no need*@
+@* <a asp-action="AddProduct" asp-controller="Product" class="btn btn-primary">Add More</a> *@ 
+@**@
+
+@* @if (Model?.Count() > 0)
+{
+    <table class="table table-striped my-2">
+        <tr class="bg-success fs-5">
+            <th>Image</th>
+            <th>Product</th>
+            <th>Company</th>
+            <th>Category</th>
+            <th>Date</th>
+            <th>OnSale</th>
+            <th>Price</th>
+            <th>Action</th>
+        </tr>
+
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>
+                    @if (string.IsNullOrWhiteSpace(product.Image))
+                    {
+                        <img src="/Images/114320.jpg" style="width:100px;height:100px" alt="product image" />
+                    }
+                    else
+                    {
+                        <img src="/Images/@product.Image" style="width:100px;height:100px" alt="product image" />
+                    }
+                </td>
+                <td class="fs-5">@product.ProductName</td>
+                <td class="fs-5">@product.CompanyName</td>
+                <td class="fs-5">@product.Genre.GenreName</td>
+                <td class="fs-5">@product.ReleaseDate.ToShortDateString()</td> *@
+
+@*no need*@
+@* <td>@product.OnSale</td> *@
+@**@
+
+@*     <td class="fs-5">
+                    @if (product.OnSale)
+                    {
+                        <span class="badge py-1 px-2 bg-success">On Sale</span>
+                    }
+                    else
+                    {
+                        <span class="badge py-1 px-2 bg-warning">Regular</span>
+                    }
+                </td>
+                <td class="fs-5">@product.Price</td>
+
+                <td class="fs-5">
+                    <a asp-action="UpdateProduct" asp-controller="Product" asp-route-id="@product.Id" class="btn btn-success">Edit</a>|❤️|
+                    <a asp-action="ProductDetails" asp-route-id="@product.Id" class="btn btn-info">Detail</a>|❤️|
+
+                    <a asp-action="DeleteProduct" asp-controller="Product" asp-route-id="@product.Id" class="btn btn-danger" onclick="return window.confirm('Are you sure to delete?')">Delete</a>
+                </td>
+                }
+            </tr> *@
+@* ============================================================================================== *@
+@*             @if (product.ProductInformations != null && product.ProductInformations.Any())
+            {
+                <tr>
+                    <td class=" bg-success" colspan="8 ">
+                        <div class="ms-4">
+                            <strong class="bg-success fs-5">Additional Information:</strong>
+                            <table class="table table-sm table-striped mt-1 mb-0 border bg-info">
+                                <thead>
+                                    <tr class="bg-light">
+                                        <th class="bg-warning fs-5" style="width:50%">Description</th>
+                                        <th class="bg-warning fs-5" style="width:50%">Made In</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var detail in product.ProductInformations)
+                                    {
+                                        <tr>
+                                            <td class="fs-5">@detail.Description</td>
+                                            <td class="fs-5">@detail.MadeIn</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+            }
+
+
+        }
+    </table>
+
+    @if (totalPages > 1)
+    {
+        <nav aria-label="Page navigation">
+            <ul class="pagination">
+                <li class="page-item @(currentPage <= 1 ? "disabled" : "")">
+                    <a class="page-link" asp-action="Index" asp-route-searchQuery="@searchQuery" asp-route-page="1" asp-route-pageSize="@pageSize">First</a>
+                </li>
+                <li class="page-item @(currentPage <= 1 ? "disabled" : "")">
+                    <a class="page-link" asp-action="Index" asp-route-searchQuery="@searchQuery" asp-route-page="@(currentPage - 1)" asp-route-pageSize="@pageSize">Previous</a>
+                </li>
+
+                @for (int i = 1; i <= totalPages; i++)
+                {
+                    <li class="page-item @(i == currentPage ? "active" : "")">
+                        <a class="page-link" asp-action="Index" asp-route-searchQuery="@searchQuery" asp-route-page="@i" asp-route-pageSize="@pageSize">@i</a>
+                    </li>
+                }
+
+                <li class="page-item @(currentPage >= totalPages ? "disabled" : "")">
+                    <a class="page-link" asp-action="Index" asp-route-searchQuery="@searchQuery" asp-route-page="@(currentPage + 1)" asp-route-pageSize="@pageSize">Next</a>
+                </li>
+                <li class="page-item @(currentPage >= totalPages ? "disabled" : "")">
+                    <a class="page-link" asp-action="Index" asp-route-searchQuery="@searchQuery" asp-route-page="@totalPages" asp-route-pageSize="@pageSize">Last</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="d-flex justify-content-center align-items-center bg-light p-2 rounded shadow-sm my-3">
+            <p class="mb-0 text-dark fs-5 fw-normal">
+                Page
+                <strong class="text-primary me-1">@currentPage</strong>
+                of
+                <strong class="text-primary me-3">@totalPages</strong>.
+                Total items:
+                <span class="badge bg-info text-dark ms-1">@totalItems</span>
+            </p>
+        </div>
+    }
+}
+else
+{
+    <h3>No records found.</h3>
+} *@
